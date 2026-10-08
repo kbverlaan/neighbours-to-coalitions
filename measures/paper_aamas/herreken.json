@@ -1,0 +1,150 @@
+{
+ "names": {
+  "cap": 0.532,
+  "price": 0.002,
+  "inter": 0.028,
+  "cap_ci": [
+   0.484,
+   0.636
+  ],
+  "price_ci": [
+   0.0,
+   0.063
+  ],
+  "cell_means": {
+   "L1_scar": 0.0,
+   "L1_knife": 0.0,
+   "L1_abund": 0.0,
+   "L2_scar": 4.067,
+   "L2_knife": 3.0,
+   "L2_abund": 2.2,
+   "L3_scar": 3.0,
+   "L3_knife": 3.2,
+   "L3_abund": 3.8,
+   "L4_scar": 2.4,
+   "L4_knife": 2.9,
+   "L4_abund": 2.1
+  }
+ },
+ "names_any": {
+  "cap": 0.69,
+  "price": 0.008,
+  "inter": 0.02,
+  "cap_ci": [
+   0.594,
+   0.826
+  ],
+  "price_ci": [
+   0.001,
+   0.076
+  ],
+  "cell_means": {
+   "L1_scar": 0.0,
+   "L1_knife": 0.0,
+   "L1_abund": 0.0,
+   "L2_scar": 0.8,
+   "L2_knife": 0.933,
+   "L2_abund": 0.8,
+   "L3_scar": 0.8,
+   "L3_knife": 0.9,
+   "L3_abund": 0.9,
+   "L4_scar": 0.9,
+   "L4_knife": 0.9,
+   "L4_abund": 1.0
+  }
+ },
+ "names_per_kmsg": {
+  "cap": 0.541,
+  "price": 0.003,
+  "inter": 0.03,
+  "cap_ci": [
+   0.486,
+   0.649
+  ],
+  "price_ci": [
+   0.001,
+   0.068
+  ],
+  "cell_means": {
+   "L1_scar": 0.0,
+   "L1_knife": 0.0,
+   "L1_abund": 0.0,
+   "L2_scar": 2.276,
+   "L2_knife": 1.706,
+   "L2_abund": 1.237,
+   "L3_scar": 1.774,
+   "L3_knife": 2.132,
+   "L3_abund": 2.31,
+   "L4_scar": 1.333,
+   "L4_knife": 1.612,
+   "L4_abund": 1.167
+  }
+ },
+ "floor": {
+  "cap": 0.74,
+  "price": 0.084,
+  "inter": 0.06,
+  "cap_ci": [
+   0.641,
+   0.854
+  ],
+  "price_ci": [
+   0.017,
+   0.21
+  ],
+  "cell_means": {
+   "L1_scar": 16.081,
+   "L1_knife": 18.52,
+   "L1_abund": 15.973,
+   "L2_scar": 0.462,
+   "L2_knife": 0.743,
+   "L2_abund": 15.546,
+   "L3_scar": 0.878,
+   "L3_knife": 0.0,
+   "L3_abund": 9.703,
+   "L4_scar": 17.909,
+   "L4_knife": 23.176,
+   "L4_abund": 105.572
+  }
+ },
+ "floor_ratio": {
+  "cap": 0.742,
+  "price": 0.291,
+  "inter": 0.386,
+  "cap_ci": [
+   0.68,
+   0.823
+  ],
+  "price_ci": [
+   0.206,
+   0.432
+  ],
+  "cell_means": {
+   "L1_scar": 1.0,
+   "L1_knife": 0.222,
+   "L1_abund": 0.014,
+   "L2_scar": 0.038,
+   "L2_knife": 0.055,
+   "L2_abund": 0.05,
+   "L3_scar": 0.08,
+   "L3_knife": 0.0,
+   "L3_abund": 0.014,
+   "L4_scar": 0.977,
+   "L4_knife": 0.587,
+   "L4_abund": 0.451
+  }
+ },
+ "pairs_any": {
+  "cap": 0.189,
+  "price": 0.517,
+  "inter": 0.16,
+  "cap_ci": [
+   0.099,
+   0.352
+  ],
+  "price_ci": [
+   0.43,
+   0.653
+  ]
+ }
+}

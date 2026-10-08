@@ -1,0 +1,61 @@
+# REGISTERED PRODUCTION CELL — L2 x knife (generated from frozen ladder_L2.yaml;
+# only delta: g_inv). Confirmatory grid: 4 rungs x 3 payoff cells. Do not change after deposit.
+# Complexity ladder — RUNG 2: Predation + arming.
+# Affordances: L1 + take + strengthen (arming). No rewiring, no commons.
+# Comms + memory ON (always-on base substrate). Prod numeric params unchanged.
+#
+# Flag matrix (see ladder_L1.yaml header).
+
+num_agents: 30
+initial_resources: 100.0
+
+# Investment
+c_inv: 0.06
+g_inv: 0.091                         # REGISTERED payoff cell: knife (triplet 0.039/0.091/0.142)
+gamma_sat: 1.00
+tau_sat: 5
+
+# Arming — ON from L2
+arm_enabled: true
+c_arm: 0.05
+mu_arm: 4.0
+delta_B: 0.75
+
+# Combat — ON from L2
+take_enabled: true
+alpha: 0.35
+c_atk: 0.02
+symmetric_stakes: true
+lethal_pot: false
+
+# Commons — OFF on L2
+commons_enabled: false
+commons_K: 120.0
+commons_init: 120.0                   # dormant (commons_enabled false); parity with L4
+commons_regen: 1.5                    # dormant (commons off); parity with L4
+c_harvest: 0.03                       # dormant (commons off); parity with L4
+harvest_frac_cap: 0.04                # dormant; parity with L4
+commons_collapse_frac: 0.05
+commons_open_round: 2                 # inert while commons_enabled false (parity with L4)
+
+# Economy
+delta_R: 0.97
+
+# Game length
+max_rounds: 60
+history_length: 10
+
+# Network — static topology always on; association (rewiring) OFF on L2
+network_enabled: true
+assoc_enabled: false
+mean_degree: 5.0
+rewiring_prob: 0.0
+
+# Communication — ON (base substrate)
+comm_scope: "choice"
+
+# Memory — ON (base substrate)
+memory:
+  enabled: true
+  window_size: 10
+  notes_persist: true

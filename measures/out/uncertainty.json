@@ -1,0 +1,1771 @@
+{
+ "generated_by": "tools/uncertainty.py",
+ "rng_seed": 20260817,
+ "resamples": 10000,
+ "ci_level": 0.95,
+ "resampling_unit": "the run; contrasts are stratified within cell",
+ "free_parameters": {
+  "interval_method": "percentile primary; BCa reported alongside wherever n >= 10, with bca_agrees flagging a shift of more than a tenth of the interval",
+  "correlation": "Pearson primary; Spearman alongside",
+  "fragile_threshold": 5
+ },
+ "provenance": {
+  "memoised_runs_checked": 150,
+  "max_abs_diff_final_gini": 0.0,
+  "max_abs_diff_transfer_pct": 0.0,
+  "note": "memoised scalars (from the reasoning traces) against a fresh read of _log.jsonl; transfer_pct is memoised rounded to two decimals, so its tolerance is 0.005",
+  "agrees": true
+ },
+ "runset": {
+  "cells": 12,
+  "production_runs": 150
+ },
+ "targets": {
+  "gini_by_cell": {
+   "prod_L1_scar": {
+    "estimate": 0.0,
+    "ci_lo": 0.0,
+    "ci_hi": 0.0,
+    "method": "percentile",
+    "resamples": 10000,
+    "n": 15,
+    "denominator": 15,
+    "unit": "runs",
+    "fragile": false,
+    "sd": 0.0,
+    "median": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "bca": null,
+    "bca_note": "undefined: constant bootstrap or jackknife",
+    "median_ci": {
+     "estimate": 0.0,
+     "ci_lo": 0.0,
+     "ci_hi": 0.0
+    }
+   },
+   "prod_L1_knife": {
+    "estimate": 0.152237,
+    "ci_lo": 0.128107,
+    "ci_hi": 0.173666,
+    "method": "percentile",
+    "resamples": 10000,
+    "n": 15,
+    "denominator": 15,
+    "unit": "runs",
+    "fragile": false,
+    "sd": 0.047067,
+    "median": 0.162627,
+    "min": 0.031737,
+    "max": 0.218634,
+    "bca": {
+     "ci_lo": 0.123703,
+     "ci_hi": 0.171503,
+     "z0": -0.0454,
+     "acceleration": -0.043
+    },
+    "bca_agrees": true,
+    "median_ci": {
+     "estimate": 0.162627,
+     "ci_lo": 0.127928,
+     "ci_hi": 0.173523
+    }
+   },
+   "prod_L1_abund": {
+    "estimate": 0.307871,
+    "ci_lo": 0.262466,
+    "ci_hi": 0.353719,
+    "method": "percentile",
+    "resamples": 10000,
+    "n": 15,
+    "denominator": 15,
+    "unit": "runs",
+    "fragile": false,
+    "sd": 0.095575,
+    "median": 0.324225,
+    "min": 0.153542,
+    "max": 0.487447,
+    "bca": {
+     "ci_lo": 0.264345,
+     "ci_hi": 0.356215,
+     "z0": 0.0336,
+     "acceleration": 0.0046
+    },
+    "bca_agrees": true,
+    "median_ci": {
+     "estimate": 0.324225,
+     "ci_lo": 0.238608,
+     "ci_hi": 0.396427
+    }
+   },
+   "prod_L2_scar": {
+    "estimate": 0.37267,
+    "ci_lo": 0.333986,
+    "ci_hi": 0.404434,
+    "method": "percentile",
+    "resamples": 10000,
+    "n": 15,
+    "denominator": 15,
+    "unit": "runs",
+    "fragile": false,
+    "sd": 0.072128,
+    "median": 0.399446,
+    "min": 0.175699,
+    "max": 0.458331,
+    "bca": {
+     "ci_lo": 0.325481,
+     "ci_hi": 0.399882,
+     "z0": -0.0685,
+     "acceleration": -0.0625
+    },
+    "bca_agrees": false,
+    "median_ci": {
+     "estimate": 0.399446,
+     "ci_lo": 0.324682,
+     "ci_hi": 0.423818
+    }
+   },
+   "prod_L2_knife": {
+    "estimate": 0.367402,
+    "ci_lo": 0.32679,
+    "ci_hi": 0.411692,
+    "method": "percentile",
+    "resamples": 10000,
+    "n": 15,
+    "denominator": 15,
+    "unit": "runs",
+    "fragile": false,
+    "sd": 0.088076,
+    "median": 0.367617,
+    "min": 0.239761,
+    "max": 0.578694,
+    "bca": {
+     "ci_lo": 0.329211,
+     "ci_hi": 0.415384,
+     "z0": 0.0281,
+     "acceleration": 0.0262
+    },
+    "bca_agrees": true,
+    "median_ci": {
+     "estimate": 0.367617,
+     "ci_lo": 0.296872,
+     "ci_hi": 0.4305
+    }
+   },
+   "prod_L2_abund": {
+    "estimate": 0.505185,
+    "ci_lo": 0.438765,
+    "ci_hi": 0.565382,
+    "method": "percentile",
+    "resamples": 10000,
+    "n": 15,
+    "denominator": 15,
+    "unit": "runs",
+    "fragile": false,
+    "sd": 0.127795,
+    "median": 0.495318,
+    "min": 0.193311,
+    "max": 0.729473,
+    "bca": {
+     "ci_lo": 0.43239,
+     "ci_hi": 0.56075,
+     "z0": -0.0293,
+     "acceleration": -0.0247
+    },
+    "bca_agrees": true,
+    "median_ci": {
+     "estimate": 0.495318,
+     "ci_lo": 0.420807,
+     "ci_hi": 0.584848
+    }
+   },
+   "prod_L3_scar": {
+    "estimate": 0.459878,
+    "ci_lo": 0.302618,
+    "ci_hi": 0.628943,
+    "method": "percentile",
+    "resamples": 10000,
+    "n": 10,
+    "denominator": 10,
+    "unit": "runs",
+    "fragile": false,
+    "sd": 0.277259,
+    "median": 0.355719,
+    "min": 0.079014,
+    "max": 0.906558,
+    "bca": {
+     "ci_lo": 0.311142,
+     "ci_hi": 0.637817,
+     "z0": 0.0159,
+     "acceleration": 0.022
+    },
+    "bca_agrees": true,
+    "median_ci": {
+     "estimate": 0.355719,
+     "ci_lo": 0.267119,
+     "ci_hi": 0.692306
+    }
+   },
+   "prod_L3_knife": {
+    "estimate": 0.456372,
+    "ci_lo": 0.343208,
+    "ci_hi": 0.583172,
+    "method": "percentile",
+    "resamples": 10000,
+    "n": 10,
+    "denominator": 10,
+    "unit": "runs",
+    "fragile": false,
+    "sd": 0.207911,
+    "median": 0.392664,
+    "min": 0.211766,
+    "max": 0.861842,
+    "bca": {
+     "ci_lo": 0.358888,
+     "ci_hi": 0.613775,
+     "z0": 0.0782,
+     "acceleration": 0.0516
+    },
+    "bca_agrees": false,
+    "median_ci": {
+     "estimate": 0.392664,
+     "ci_lo": 0.318038,
+     "ci_hi": 0.597298
+    }
+   },
+   "prod_L3_abund": {
+    "estimate": 0.56782,
+    "ci_lo": 0.43165,
+    "ci_hi": 0.695832,
+    "method": "percentile",
+    "resamples": 10000,
+    "n": 10,
+    "denominator": 10,
+    "unit": "runs",
+    "fragile": false,
+    "sd": 0.225997,
+    "median": 0.569628,
+    "min": 0.171549,
+    "max": 0.887744,
+    "bca": {
+     "ci_lo": 0.421795,
+     "ci_hi": 0.690481,
+     "z0": -0.0162,
+     "acceleration": -0.0219
+    },
+    "bca_agrees": true,
+    "median_ci": {
+     "estimate": 0.569628,
+     "ci_lo": 0.408259,
+     "ci_hi": 0.742909
+    }
+   },
+   "prod_L4_scar": {
+    "estimate": 0.006119,
+    "ci_lo": 0.004812,
+    "ci_hi": 0.007649,
+    "method": "percentile",
+    "resamples": 10000,
+    "n": 10,
+    "denominator": 10,
+    "unit": "runs",
+    "fragile": false,
+    "sd": 0.002406,
+    "median": 0.005536,
+    "min": 0.003333,
+    "max": 0.01082,
+    "bca": {
+     "ci_lo": 0.004961,
+     "ci_hi": 0.007935,
+     "z0": 0.0577,
+     "acceleration": 0.0493
+    },
+    "bca_agrees": false,
+    "median_ci": {
+     "estimate": 0.005536,
+     "ci_lo": 0.004566,
+     "ci_hi": 0.007642
+    }
+   },
+   "prod_L4_knife": {
+    "estimate": 0.106202,
+    "ci_lo": 0.053908,
+    "ci_hi": 0.16536,
+    "method": "percentile",
+    "resamples": 10000,
+    "n": 10,
+    "denominator": 10,
+    "unit": "runs",
+    "fragile": false,
+    "sd": 0.094654,
+    "median": 0.109104,
+    "min": 0.003695,
+    "max": 0.294012,
+    "bca": {
+     "ci_lo": 0.057161,
+     "ci_hi": 0.170536,
+     "z0": 0.0213,
+     "acceleration": 0.0352
+    },
+    "bca_agrees": true,
+    "median_ci": {
+     "estimate": 0.109104,
+     "ci_lo": 0.004907,
+     "ci_hi": 0.169281
+    }
+   },
+   "prod_L4_abund": {
+    "estimate": 0.22829,
+    "ci_lo": 0.111173,
+    "ci_hi": 0.35516,
+    "method": "percentile",
+    "resamples": 10000,
+    "n": 10,
+    "denominator": 10,
+    "unit": "runs",
+    "fragile": false,
+    "sd": 0.204486,
+    "median": 0.219215,
+    "min": 0.00239,
+    "max": 0.615681,
+    "bca": {
+     "ci_lo": 0.118212,
+     "ci_hi": 0.362101,
+     "z0": 0.0048,
+     "acceleration": 0.027
+    },
+    "bca_agrees": true,
+    "median_ci": {
+     "estimate": 0.219215,
+     "ci_lo": 0.005859,
+     "ci_hi": 0.384288
+    }
+   }
+  },
+  "gini_contrasts": {
+   "L2_scar_minus_knife": {
+    "estimate": 0.005268,
+    "ci_lo": -0.051938,
+    "ci_hi": 0.058198,
+    "method": "percentile (stratified, two-sample)",
+    "resamples": 10000,
+    "n": {
+     "scar": 15,
+     "knife": 15
+    },
+    "denominator": 30,
+    "unit": "runs",
+    "straddles_zero": true,
+    "ci_width": 0.110136,
+    "arm_means": {
+     "scar": 0.37267,
+     "knife": 0.367402
+    },
+    "fragile": false,
+    "bca": {
+     "ci_lo": -0.058718,
+     "ci_hi": 0.054426,
+     "z0": -0.0301,
+     "acceleration": -0.028
+    },
+    "bca_agrees": true,
+    "claim": "chapter: indistinguishable (0.006)"
+   },
+   "L3_scar_minus_knife": {
+    "estimate": 0.003506,
+    "ci_lo": -0.201252,
+    "ci_hi": 0.205802,
+    "method": "percentile (stratified, two-sample)",
+    "resamples": 10000,
+    "n": {
+     "scar": 10,
+     "knife": 10
+    },
+    "denominator": 20,
+    "unit": "runs",
+    "straddles_zero": true,
+    "ci_width": 0.407054,
+    "arm_means": {
+     "scar": 0.459878,
+     "knife": 0.456372
+    },
+    "fragile": false,
+    "bca": {
+     "ci_lo": -0.200874,
+     "ci_hi": 0.206643,
+     "z0": 0.0033,
+     "acceleration": 0.0001
+    },
+    "bca_agrees": true,
+    "claim": "chapter: indistinguishable (0.004)"
+   },
+   "L1_scar_minus_knife": {
+    "estimate": -0.152237,
+    "ci_lo": -0.173667,
+    "ci_hi": -0.127998,
+    "method": "percentile (stratified, two-sample)",
+    "resamples": 10000,
+    "n": {
+     "scar": 15,
+     "knife": 15
+    },
+    "denominator": 30,
+    "unit": "runs",
+    "straddles_zero": false,
+    "ci_width": 0.04567,
+    "arm_means": {
+     "scar": 0.0,
+     "knife": 0.152237
+    },
+    "fragile": false,
+    "bca": {
+     "ci_lo": -0.171895,
+     "ci_hi": -0.124611,
+     "z0": 0.0343,
+     "acceleration": 0.043
+    },
+    "bca_agrees": true,
+    "claim": "chapter: scarcity and knife-edge separate at L1 and L4"
+   },
+   "L4_scar_minus_knife": {
+    "estimate": -0.100084,
+    "ci_lo": -0.159152,
+    "ci_hi": -0.046724,
+    "method": "percentile (stratified, two-sample)",
+    "resamples": 10000,
+    "n": {
+     "scar": 10,
+     "knife": 10
+    },
+    "denominator": 20,
+    "unit": "runs",
+    "straddles_zero": false,
+    "ci_width": 0.112428,
+    "arm_means": {
+     "scar": 0.006119,
+     "knife": 0.106202
+    },
+    "fragile": false,
+    "bca": {
+     "ci_lo": -0.165504,
+     "ci_hi": -0.051459,
+     "z0": -0.0311,
+     "acceleration": -0.0352
+    },
+    "bca_agrees": true,
+    "claim": "chapter: scarcity and knife-edge separate at L1 and L4"
+   },
+   "L1_abund_minus_knife": {
+    "estimate": 0.155633,
+    "ci_lo": 0.10447,
+    "ci_hi": 0.208261,
+    "method": "percentile (stratified, two-sample)",
+    "resamples": 10000,
+    "n": {
+     "abund": 15,
+     "knife": 15
+    },
+    "denominator": 30,
+    "unit": "runs",
+    "straddles_zero": false,
+    "ci_width": 0.10379,
+    "arm_means": {
+     "abund": 0.307871,
+     "knife": 0.152237
+    },
+    "fragile": false,
+    "bca": {
+     "ci_lo": 0.105516,
+     "ci_hi": 0.20959,
+     "z0": 0.0105,
+     "acceleration": 0.007
+    },
+    "bca_agrees": true,
+    "claim": "chapter: abundance is the most unequal at every rung"
+   },
+   "L2_abund_minus_knife": {
+    "estimate": 0.137783,
+    "ci_lo": 0.059319,
+    "ci_hi": 0.212092,
+    "method": "percentile (stratified, two-sample)",
+    "resamples": 10000,
+    "n": {
+     "abund": 15,
+     "knife": 15
+    },
+    "denominator": 30,
+    "unit": "runs",
+    "straddles_zero": false,
+    "ci_width": 0.152772,
+    "arm_means": {
+     "abund": 0.505185,
+     "knife": 0.367402
+    },
+    "fragile": false,
+    "bca": {
+     "ci_lo": 0.053405,
+     "ci_hi": 0.207159,
+     "z0": -0.0306,
+     "acceleration": -0.0186
+    },
+    "bca_agrees": true,
+    "claim": "chapter: abundance is the most unequal at every rung"
+   },
+   "L3_abund_minus_knife": {
+    "estimate": 0.111448,
+    "ci_lo": -0.07592,
+    "ci_hi": 0.284826,
+    "method": "percentile (stratified, two-sample)",
+    "resamples": 10000,
+    "n": {
+     "abund": 10,
+     "knife": 10
+    },
+    "denominator": 20,
+    "unit": "runs",
+    "straddles_zero": true,
+    "ci_width": 0.360747,
+    "arm_means": {
+     "abund": 0.56782,
+     "knife": 0.456372
+    },
+    "fragile": false,
+    "bca": {
+     "ci_lo": -0.091921,
+     "ci_hi": 0.273539,
+     "z0": -0.0366,
+     "acceleration": -0.0248
+    },
+    "bca_agrees": true,
+    "claim": "chapter: abundance is the most unequal at every rung"
+   },
+   "L4_abund_minus_knife": {
+    "estimate": 0.122087,
+    "ci_lo": -0.006255,
+    "ci_hi": 0.259652,
+    "method": "percentile (stratified, two-sample)",
+    "resamples": 10000,
+    "n": {
+     "abund": 10,
+     "knife": 10
+    },
+    "denominator": 20,
+    "unit": "runs",
+    "straddles_zero": true,
+    "ci_width": 0.265907,
+    "arm_means": {
+     "abund": 0.22829,
+     "knife": 0.106202
+    },
+    "fragile": false,
+    "bca": {
+     "ci_lo": -0.001559,
+     "ci_hi": 0.266723,
+     "z0": 0.0073,
+     "acceleration": 0.0176
+    },
+    "bca_agrees": true,
+    "claim": "chapter: abundance is the most unequal at every rung"
+   }
+  },
+  "channel_contrasts": {
+   "L1": {
+    "final_gini": {
+     "estimate": -0.076667,
+     "ci_lo": -0.129014,
+     "ci_hi": -0.027605,
+     "method": "percentile (stratified, two-sample)",
+     "resamples": 10000,
+     "n": {
+      "speaking": 15,
+      "silent": 5
+     },
+     "denominator": 20,
+     "unit": "runs",
+     "straddles_zero": false,
+     "ci_width": 0.101409,
+     "arm_means": {
+      "speaking": 0.152237,
+      "silent": 0.228904
+     },
+     "fragile": true,
+     "per_run": {
+      "speaking": [
+       0.127928,
+       0.204645,
+       0.173523,
+       0.141629,
+       0.162627,
+       0.194595,
+       0.095787,
+       0.031737,
+       0.218634,
+       0.135303,
+       0.119973,
+       0.15179,
+       0.171038,
+       0.168023,
+       0.18633
+      ],
+      "silent": [
+       0.199847,
+       0.300214,
+       0.283341,
+       0.184264,
+       0.176855
+      ]
+     }
+    },
+    "mean_final_holding": {
+     "estimate": 36.493562,
+     "ci_lo": 31.878686,
+     "ci_hi": 41.100118,
+     "method": "percentile (stratified, two-sample)",
+     "resamples": 10000,
+     "n": {
+      "speaking": 15,
+      "silent": 5
+     },
+     "denominator": 20,
+     "unit": "runs",
+     "straddles_zero": false,
+     "ci_width": 9.221431,
+     "arm_means": {
+      "speaking": 81.235968,
+      "silent": 44.742406
+     },
+     "fragile": true,
+     "per_run": {
+      "speaking": [
+       82.57199,
+       78.393508,
+       80.404072,
+       84.638788,
+       78.335557,
+       76.110876,
+       84.792465,
+       92.659704,
+       72.732821,
+       83.332113,
+       83.978626,
+       82.848073,
+       79.631436,
+       80.638639,
+       77.470849
+      ],
+      "silent": [
+       46.142928,
+       51.631137,
+       47.084046,
+       39.142635,
+       39.711283
+      ]
+     }
+    },
+    "transfer_pct": {
+     "estimate": 33.881333,
+     "ci_lo": 29.32795,
+     "ci_hi": 38.616267,
+     "method": "percentile (stratified, two-sample)",
+     "resamples": 10000,
+     "n": {
+      "speaking": 15,
+      "silent": 5
+     },
+     "denominator": 20,
+     "unit": "runs",
+     "straddles_zero": false,
+     "ci_width": 9.288317,
+     "arm_means": {
+      "speaking": 81.959333,
+      "silent": 48.078
+     },
+     "fragile": true,
+     "per_run": {
+      "speaking": [
+       85.11,
+       77.06,
+       80.61,
+       86.22,
+       79.17,
+       76.17,
+       87.72,
+       95.39,
+       73.06,
+       83.33,
+       85.72,
+       82.83,
+       79.72,
+       80.56,
+       76.72
+      ],
+      "silent": [
+       50.78,
+       53.89,
+       49.28,
+       42.61,
+       43.83
+      ]
+     }
+    },
+    "fights_per_run": {
+     "estimate": 0.0,
+     "ci_lo": 0.0,
+     "ci_hi": 0.0,
+     "method": "percentile (stratified, two-sample)",
+     "resamples": 10000,
+     "n": {
+      "speaking": 15,
+      "silent": 5
+     },
+     "denominator": 20,
+     "unit": "runs",
+     "straddles_zero": true,
+     "ci_width": 0.0,
+     "arm_means": {
+      "speaking": 0.0,
+      "silent": 0.0
+     },
+     "fragile": true,
+     "per_run": {
+      "speaking": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "silent": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     }
+    }
+   },
+   "L2": {
+    "final_gini": {
+     "estimate": 0.311019,
+     "ci_lo": 0.194951,
+     "ci_hi": 0.396938,
+     "method": "percentile (stratified, two-sample)",
+     "resamples": 10000,
+     "n": {
+      "speaking": 15,
+      "silent": 5
+     },
+     "denominator": 20,
+     "unit": "runs",
+     "straddles_zero": false,
+     "ci_width": 0.201986,
+     "arm_means": {
+      "speaking": 0.367402,
+      "silent": 0.056384
+     },
+     "fragile": true,
+     "per_run": {
+      "speaking": [
+       0.367617,
+       0.354324,
+       0.578694,
+       0.382991,
+       0.296872,
+       0.347232,
+       0.440324,
+       0.239761,
+       0.272721,
+       0.293688,
+       0.4305,
+       0.262643,
+       0.402734,
+       0.433133,
+       0.407798
+      ],
+      "silent": [
+       0.0,
+       0.004861,
+       0.272197,
+       0.004861,
+       0.0
+      ]
+     }
+    },
+    "mean_final_holding": {
+     "estimate": 0.104134,
+     "ci_lo": -6.566277,
+     "ci_hi": 7.997188,
+     "method": "percentile (stratified, two-sample)",
+     "resamples": 10000,
+     "n": {
+      "speaking": 15,
+      "silent": 5
+     },
+     "denominator": 20,
+     "unit": "runs",
+     "straddles_zero": true,
+     "ci_width": 14.563465,
+     "arm_means": {
+      "speaking": 18.039281,
+      "silent": 17.935148
+     },
+     "fragile": true,
+     "per_run": {
+      "speaking": [
+       21.199317,
+       43.095312,
+       10.674053,
+       10.853236,
+       12.021659,
+       13.058097,
+       12.67932,
+       14.361288,
+       12.373926,
+       55.479284,
+       12.2797,
+       14.167222,
+       12.47198,
+       12.980387,
+       12.894441
+      ],
+      "silent": [
+       16.080667,
+       16.097284,
+       25.319838,
+       16.097284,
+       16.080667
+      ]
+     }
+    },
+    "transfer_pct": {
+     "estimate": 8.903333,
+     "ci_lo": -1.434167,
+     "ci_hi": 20.020717,
+     "method": "percentile (stratified, two-sample)",
+     "resamples": 10000,
+     "n": {
+      "speaking": 15,
+      "silent": 5
+     },
+     "denominator": 20,
+     "unit": "runs",
+     "straddles_zero": true,
+     "ci_width": 21.454883,
+     "arm_means": {
+      "speaking": 12.405333,
+      "silent": 3.502
+     },
+     "fragile": true,
+     "per_run": {
+      "speaking": [
+       13.06,
+       50.0,
+       6.15,
+       5.28,
+       4.0,
+       7.5,
+       3.69,
+       1.33,
+       6.07,
+       61.51,
+       4.94,
+       4.52,
+       5.78,
+       2.14,
+       10.11
+      ],
+      "silent": [
+       0.0,
+       0.06,
+       17.39,
+       0.06,
+       0.0
+      ]
+     }
+    },
+    "fights_per_run": {
+     "estimate": 50.8,
+     "ci_lo": 39.133333,
+     "ci_hi": 63.133333,
+     "method": "percentile (stratified, two-sample)",
+     "resamples": 10000,
+     "n": {
+      "speaking": 15,
+      "silent": 5
+     },
+     "denominator": 20,
+     "unit": "runs",
+     "straddles_zero": false,
+     "ci_width": 24.0,
+     "arm_means": {
+      "speaking": 50.8,
+      "silent": 0.0
+     },
+     "fragile": true,
+     "per_run": {
+      "speaking": [
+       30.0,
+       23.0,
+       101.0,
+       74.0,
+       52.0,
+       75.0,
+       70.0,
+       24.0,
+       46.0,
+       27.0,
+       84.0,
+       29.0,
+       41.0,
+       35.0,
+       51.0
+      ],
+      "silent": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ]
+     }
+    }
+   },
+   "L3": {
+    "final_gini": {
+     "estimate": 0.188177,
+     "ci_lo": 0.034268,
+     "ci_hi": 0.359082,
+     "method": "percentile (stratified, two-sample)",
+     "resamples": 10000,
+     "n": {
+      "speaking": 10,
+      "silent": 5
+     },
+     "denominator": 15,
+     "unit": "runs",
+     "straddles_zero": false,
+     "ci_width": 0.324814,
+     "arm_means": {
+      "speaking": 0.456372,
+      "silent": 0.268195
+     },
+     "fragile": true,
+     "per_run": {
+      "speaking": [
+       0.350434,
+       0.432219,
+       0.351043,
+       0.51484,
+       0.861842,
+       0.423386,
+       0.77121,
+       0.211766,
+       0.285034,
+       0.361943
+      ],
+      "silent": [
+       0.054876,
+       0.377383,
+       0.386949,
+       0.303844,
+       0.217923
+      ]
+     }
+    },
+    "mean_final_holding": {
+     "estimate": -12.098106,
+     "ci_lo": -20.927873,
+     "ci_hi": -4.824544,
+     "method": "percentile (stratified, two-sample)",
+     "resamples": 10000,
+     "n": {
+      "speaking": 10,
+      "silent": 5
+     },
+     "denominator": 15,
+     "unit": "runs",
+     "straddles_zero": false,
+     "ci_width": 16.10333,
+     "arm_means": {
+      "speaking": 10.540266,
+      "silent": 22.638373
+     },
+     "fragile": true,
+     "per_run": {
+      "speaking": [
+       11.031479,
+       9.099401,
+       12.831488,
+       12.390011,
+       7.681369,
+       11.764979,
+       11.557258,
+       10.870206,
+       6.047864,
+       12.128608
+      ],
+      "silent": [
+       15.701013,
+       15.050827,
+       27.561918,
+       16.438785,
+       38.439322
+      ]
+     }
+    },
+    "transfer_pct": {
+     "estimate": -13.024,
+     "ci_lo": -28.5757,
+     "ci_hi": 0.093075,
+     "method": "percentile (stratified, two-sample)",
+     "resamples": 10000,
+     "n": {
+      "speaking": 10,
+      "silent": 5
+     },
+     "denominator": 15,
+     "unit": "runs",
+     "straddles_zero": true,
+     "ci_width": 28.668775,
+     "arm_means": {
+      "speaking": 1.866,
+      "silent": 14.89
+     },
+     "fragile": true,
+     "per_run": {
+      "speaking": [
+       0.12,
+       0.4,
+       4.58,
+       9.52,
+       0.57,
+       0.18,
+       0.0,
+       2.72,
+       0.12,
+       0.45
+      ],
+      "silent": [
+       0.17,
+       2.78,
+       25.61,
+       3.83,
+       42.06
+      ]
+     }
+    },
+    "fights_per_run": {
+     "estimate": 67.7,
+     "ci_lo": 35.5,
+     "ci_hi": 101.1025,
+     "method": "percentile (stratified, two-sample)",
+     "resamples": 10000,
+     "n": {
+      "speaking": 10,
+      "silent": 5
+     },
+     "denominator": 15,
+     "unit": "runs",
+     "straddles_zero": false,
+     "ci_width": 65.6025,
+     "arm_means": {
+      "speaking": 101.1,
+      "silent": 33.4
+     },
+     "fragile": true,
+     "per_run": {
+      "speaking": [
+       75.0,
+       110.0,
+       92.0,
+       115.0,
+       194.0,
+       82.0,
+       62.0,
+       84.0,
+       144.0,
+       53.0
+      ],
+      "silent": [
+       11.0,
+       68.0,
+       41.0,
+       47.0,
+       0.0
+      ]
+     }
+    }
+   },
+   "L4": {
+    "final_gini": {
+     "estimate": 0.055251,
+     "ci_lo": -0.010138,
+     "ci_hi": 0.124341,
+     "method": "percentile (stratified, two-sample)",
+     "resamples": 10000,
+     "n": {
+      "speaking": 10,
+      "silent": 5
+     },
+     "denominator": 15,
+     "unit": "runs",
+     "straddles_zero": true,
+     "ci_width": 0.134479,
+     "arm_means": {
+      "speaking": 0.106202,
+      "silent": 0.050951
+     },
+     "fragile": true,
+     "per_run": {
+      "speaking": [
+       0.125522,
+       0.108136,
+       0.120292,
+       0.218271,
+       0.072413,
+       0.294012,
+       0.110072,
+       0.004907,
+       0.003695,
+       0.004707
+      ],
+      "silent": [
+       0.130981,
+       0.008069,
+       0.051417,
+       0.006131,
+       0.058159
+      ]
+     }
+    },
+    "mean_final_holding": {
+     "estimate": 34.284334,
+     "ci_lo": 18.262366,
+     "ci_hi": 49.348677,
+     "method": "percentile (stratified, two-sample)",
+     "resamples": 10000,
+     "n": {
+      "speaking": 10,
+      "silent": 5
+     },
+     "denominator": 15,
+     "unit": "runs",
+     "straddles_zero": false,
+     "ci_width": 31.086311,
+     "arm_means": {
+      "speaking": 50.970359,
+      "silent": 16.686025
+     },
+     "fragile": true,
+     "per_run": {
+      "speaking": [
+       78.447099,
+       75.796872,
+       71.609275,
+       51.144012,
+       76.579913,
+       27.880525,
+       71.214086,
+       19.318836,
+       19.544019,
+       18.168957
+      ],
+      "silent": [
+       17.233487,
+       16.254714,
+       17.390415,
+       16.339732,
+       16.211777
+      ]
+     }
+    },
+    "transfer_pct": {
+     "estimate": 46.418,
+     "ci_lo": 23.766625,
+     "ci_hi": 68.9254,
+     "method": "percentile (stratified, two-sample)",
+     "resamples": 10000,
+     "n": {
+      "speaking": 10,
+      "silent": 5
+     },
+     "denominator": 15,
+     "unit": "runs",
+     "straddles_zero": false,
+     "ci_width": 45.158775,
+     "arm_means": {
+      "speaking": 46.484,
+      "silent": 0.066
+     },
+     "fragile": true,
+     "per_run": {
+      "speaking": [
+       82.33,
+       80.5,
+       76.22,
+       51.0,
+       82.17,
+       14.06,
+       78.56,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "silent": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.33
+      ]
+     }
+    },
+    "fights_per_run": {
+     "estimate": -3.4,
+     "ci_lo": -7.8,
+     "ci_hi": 0.0,
+     "method": "percentile (stratified, two-sample)",
+     "resamples": 10000,
+     "n": {
+      "speaking": 10,
+      "silent": 5
+     },
+     "denominator": 15,
+     "unit": "runs",
+     "straddles_zero": true,
+     "ci_width": 7.8,
+     "arm_means": {
+      "speaking": 0.0,
+      "silent": 3.4
+     },
+     "fragile": true,
+     "per_run": {
+      "speaking": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "silent": [
+       11.0,
+       0.0,
+       0.0,
+       0.0,
+       6.0
+      ]
+     }
+    }
+   }
+  },
+  "correlations": {
+   "L1_transfer_share_vs_final_gini": {
+    "estimate": 0.712932,
+    "ci_lo": 0.627564,
+    "ci_hi": 0.810083,
+    "method": "percentile (stratified by cell, r refitted per resample)",
+    "resamples": 10000,
+    "resamples_used": 10000,
+    "n": 45,
+    "denominator": 45,
+    "unit": "runs",
+    "cells": {
+     "prod_L1_abund": 15,
+     "prod_L1_knife": 15,
+     "prod_L1_scar": 15
+    },
+    "straddles_zero": false,
+    "spearman": {
+     "estimate": 0.469784,
+     "ci_lo": 0.426175,
+     "ci_hi": 0.548671
+    },
+    "fragile": false,
+    "claim": "chapter: r = +0.71"
+   },
+   "L2_welfare_counts_vs_rescue_counts": {
+    "estimate": 0.028457,
+    "ci_lo": -0.098944,
+    "ci_hi": 0.445981,
+    "method": "percentile (stratified by cell, r refitted per resample)",
+    "resamples": 10000,
+    "resamples_used": 9990,
+    "n": 45,
+    "denominator": 45,
+    "unit": "runs",
+    "cells": {
+     "prod_L2_abund": 15,
+     "prod_L2_knife": 15,
+     "prod_L2_scar": 15
+    },
+    "straddles_zero": true,
+    "spearman": {
+     "estimate": 0.157663,
+     "ci_lo": -0.141923,
+     "ci_hi": 0.414411
+    },
+    "fragile": false,
+    "claim": "chapter: r = +0.03, welfare language does not predict rescue at all",
+    "skipped": []
+   },
+   "L2_welfare_rate_vs_rescue_rate": {
+    "estimate": -0.087559,
+    "ci_lo": -0.563025,
+    "ci_hi": 0.517341,
+    "method": "percentile (stratified by cell, r refitted per resample)",
+    "resamples": 10000,
+    "resamples_used": 9996,
+    "n": 18,
+    "denominator": 18,
+    "unit": "runs",
+    "cells": {
+     "prod_L2_abund": 3,
+     "prod_L2_knife": 7,
+     "prod_L2_scar": 8
+    },
+    "straddles_zero": true,
+    "spearman": {
+     "estimate": -0.029544,
+     "ci_lo": -0.506331,
+     "ci_hi": 0.469501
+    },
+    "fragile": false,
+    "skipped": [
+     "prod_L2_abund_r01__s837352195_reasoning_live.jsonl",
+     "prod_L2_abund_r02__s1383564474_reasoning_live.jsonl",
+     "prod_L2_abund_r03__s3746374279_reasoning_live.jsonl",
+     "prod_L2_abund_r04__s321285516_reasoning_live.jsonl",
+     "prod_L2_abund_r05__s1694743510_reasoning_live.jsonl",
+     "prod_L2_abund_r07__s3507478361_reasoning_live.jsonl",
+     "prod_L2_abund_r08__s2163441041_reasoning_live.jsonl",
+     "prod_L2_abund_r09__s837174512_reasoning_live.jsonl",
+     "prod_L2_abund_r10__s1470017018_reasoning_live.jsonl",
+     "prod_L2_abund_r11__s2117206741_reasoning_live.jsonl",
+     "prod_L2_abund_r13__s3648692013_reasoning_live.jsonl",
+     "prod_L2_abund_r15__s3613119396_reasoning_live.jsonl",
+     "prod_L2_knife_r01__s3188486467_reasoning_live.jsonl",
+     "prod_L2_knife_r05__s1492944550_reasoning_live.jsonl",
+     "prod_L2_knife_r08__s3802911242_reasoning_live.jsonl",
+     "prod_L2_knife_r09__s1448925187_reasoning_live.jsonl",
+     "prod_L2_knife_r12__s912515578_reasoning_live.jsonl",
+     "prod_L2_knife_r13__s140813698_reasoning_live.jsonl",
+     "prod_L2_knife_r14__s3431920944_reasoning_live.jsonl",
+     "prod_L2_knife_r15__s1623171925_reasoning_live.jsonl",
+     "prod_L2_scar_r05__s2446704838_reasoning_live.jsonl",
+     "prod_L2_scar_r08__s3741371379_reasoning_live.jsonl",
+     "prod_L2_scar_r09__s474138582_reasoning_live.jsonl",
+     "prod_L2_scar_r10__s433538469_reasoning_live.jsonl",
+     "prod_L2_scar_r12__s2274853025_reasoning_live.jsonl",
+     "prod_L2_scar_r14__s2543394595_reasoning_live.jsonl",
+     "prod_L2_scar_r15__s3113660972_reasoning_live.jsonl"
+    ],
+    "skipped_note": "no agent-round below one resource, so the run has no rescue rate; dropping it is not the same as scoring it zero and it is named rather than dropped silently"
+   }
+  },
+  "exact_counts": {
+   "gemma_L4_stock_at_capacity": {
+    "what": "Gemma L4 runs ending with the commons stock at capacity (10+10+10 over scarce, knife-edge and abundant)",
+    "successes": 30,
+    "n": 30,
+    "denominator": 30,
+    "unit": "runs",
+    "estimate": 1.0,
+    "clopper_pearson": {
+     "ci_lo": 0.884297,
+     "ci_hi": 1.0
+    },
+    "jeffreys": {
+     "ci_lo": 0.920322,
+     "ci_hi": 1.0
+    },
+    "method": "clopper_pearson + jeffreys (exact; a bootstrap on a degenerate count returns a zero-width interval)",
+    "degenerate": true,
+    "fragile": false,
+    "source": "out/figures.json::m:stock-survives-silence"
+   },
+   "silent_L4_stock_at_capacity": {
+    "what": "no-channel L4 knife-edge control runs ending at capacity",
+    "successes": 0,
+    "n": 5,
+    "denominator": 5,
+    "unit": "runs",
+    "estimate": 0.0,
+    "clopper_pearson": {
+     "ci_lo": 0.0,
+     "ci_hi": 0.521824
+    },
+    "jeffreys": {
+     "ci_lo": 0.0,
+     "ci_hi": 0.379377
+    },
+    "method": "clopper_pearson + jeffreys (exact; a bootstrap on a degenerate count returns a zero-width interval)",
+    "degenerate": true,
+    "fragile": true,
+    "source": "out/figures.json::m:stock-survives-silence"
+   },
+   "qwen_L4_stock_at_capacity": {
+    "what": "Qwen L4 knife-edge runs ending at capacity",
+    "successes": 0,
+    "n": 5,
+    "denominator": 5,
+    "unit": "runs",
+    "estimate": 0.0,
+    "clopper_pearson": {
+     "ci_lo": 0.0,
+     "ci_hi": 0.521824
+    },
+    "jeffreys": {
+     "ci_lo": 0.0,
+     "ci_hi": 0.379377
+    },
+    "method": "clopper_pearson + jeffreys (exact; a bootstrap on a degenerate count returns a zero-width interval)",
+    "degenerate": true,
+    "fragile": true,
+    "source": "out/figures.json::m:stock-survives-silence"
+   },
+   "rota_scar": {
+    "what": "L4 scarce runs forming a rota",
+    "successes": 10,
+    "n": 10,
+    "denominator": 10,
+    "unit": "runs",
+    "estimate": 1.0,
+    "clopper_pearson": {
+     "ci_lo": 0.691503,
+     "ci_hi": 1.0
+    },
+    "jeffreys": {
+     "ci_lo": 0.782804,
+     "ci_hi": 1.0
+    },
+    "method": "clopper_pearson + jeffreys (exact; a bootstrap on a degenerate count returns a zero-width interval)",
+    "degenerate": true,
+    "fragile": false,
+    "source": "chapter (hand count), supplied with the brief"
+   },
+   "rota_knife": {
+    "what": "L4 knife-edge runs forming a rota",
+    "successes": 7,
+    "n": 10,
+    "denominator": 10,
+    "unit": "runs",
+    "estimate": 0.7,
+    "clopper_pearson": {
+     "ci_lo": 0.347547,
+     "ci_hi": 0.93326
+    },
+    "jeffreys": {
+     "ci_lo": 0.394182,
+     "ci_hi": 0.907305
+    },
+    "method": "clopper_pearson + jeffreys (exact; a bootstrap on a degenerate count returns a zero-width interval)",
+    "degenerate": false,
+    "fragile": false,
+    "source": "chapter (hand count), supplied with the brief"
+   },
+   "rota_abund": {
+    "what": "L4 abundant runs forming a rota",
+    "successes": 8,
+    "n": 10,
+    "denominator": 10,
+    "unit": "runs",
+    "estimate": 0.8,
+    "clopper_pearson": {
+     "ci_lo": 0.443905,
+     "ci_hi": 0.974789
+    },
+    "jeffreys": {
+     "ci_lo": 0.497226,
+     "ci_hi": 0.955941
+    },
+    "method": "clopper_pearson + jeffreys (exact; a bootstrap on a degenerate count returns a zero-width interval)",
+    "degenerate": false,
+    "fragile": false,
+    "source": "chapter (hand count), supplied with the brief"
+   },
+   "explicit_ceiling_all": {
+    "what": "L3 runs stating an explicit ceiling on a hand read",
+    "successes": 20,
+    "n": 30,
+    "denominator": 30,
+    "unit": "runs",
+    "estimate": 0.666667,
+    "clopper_pearson": {
+     "ci_lo": 0.47188,
+     "ci_hi": 0.827126
+    },
+    "jeffreys": {
+     "ci_lo": 0.488852,
+     "ci_hi": 0.814021
+    },
+    "method": "clopper_pearson + jeffreys (exact; a bootstrap on a degenerate count returns a zero-width interval)",
+    "degenerate": false,
+    "fragile": false,
+    "source": "chapter (hand read), supplied with the brief"
+   },
+   "explicit_ceiling_scar": {
+    "what": "hand-read ceiling, L3 scarce",
+    "successes": 6,
+    "n": 10,
+    "denominator": 10,
+    "unit": "runs",
+    "estimate": 0.6,
+    "clopper_pearson": {
+     "ci_lo": 0.262378,
+     "ci_hi": 0.878448
+    },
+    "jeffreys": {
+     "ci_lo": 0.303679,
+     "ci_hi": 0.846933
+    },
+    "method": "clopper_pearson + jeffreys (exact; a bootstrap on a degenerate count returns a zero-width interval)",
+    "degenerate": false,
+    "fragile": false,
+    "source": "chapter (hand read)"
+   },
+   "explicit_ceiling_knife": {
+    "what": "hand-read ceiling, L3 knife",
+    "successes": 9,
+    "n": 10,
+    "denominator": 10,
+    "unit": "runs",
+    "estimate": 0.9,
+    "clopper_pearson": {
+     "ci_lo": 0.554984,
+     "ci_hi": 0.997471
+    },
+    "jeffreys": {
+     "ci_lo": 0.618685,
+     "ci_hi": 0.988988
+    },
+    "method": "clopper_pearson + jeffreys (exact; a bootstrap on a degenerate count returns a zero-width interval)",
+    "degenerate": false,
+    "fragile": false,
+    "source": "chapter (hand read)"
+   },
+   "explicit_ceiling_abund": {
+    "what": "hand-read ceiling, L3 abundant",
+    "successes": 5,
+    "n": 10,
+    "denominator": 10,
+    "unit": "runs",
+    "estimate": 0.5,
+    "clopper_pearson": {
+     "ci_lo": 0.187086,
+     "ci_hi": 0.812914
+    },
+    "jeffreys": {
+     "ci_lo": 0.223529,
+     "ci_hi": 0.776471
+    },
+    "method": "clopper_pearson + jeffreys (exact; a bootstrap on a degenerate count returns a zero-width interval)",
+    "degenerate": false,
+    "fragile": false,
+    "source": "chapter (hand read)"
+   }
+  },
+  "model_arm_paired_seeds": {
+   "L2": {
+    "estimate": -0.367665,
+    "ci_lo": -0.435725,
+    "ci_hi": -0.256154,
+    "method": "percentile (paired on shared seed)",
+    "resamples": 10000,
+    "n": 5,
+    "denominator": 5,
+    "unit": "seed pairs",
+    "straddles_zero": false,
+    "fragile": true,
+    "per_run": [
+     -0.445297,
+     -0.149714,
+     -0.393454,
+     -0.438173,
+     -0.411687
+    ],
+    "direction": "gemma minus qwen",
+    "pairs": [
+     {
+      "seed": "1492944550",
+      "gemma": 0.296872,
+      "qwen": 0.742169,
+      "difference": -0.445297
+     },
+     {
+      "seed": "2205956395",
+      "gemma": 0.578694,
+      "qwen": 0.728408,
+      "difference": -0.149714
+     },
+     {
+      "seed": "3188486467",
+      "gemma": 0.367617,
+      "qwen": 0.761071,
+      "difference": -0.393454
+     },
+     {
+      "seed": "3620190717",
+      "gemma": 0.354324,
+      "qwen": 0.792497,
+      "difference": -0.438173
+     },
+     {
+      "seed": "510714207",
+      "gemma": 0.382991,
+      "qwen": 0.794678,
+      "difference": -0.411687
+     }
+    ],
+    "skipped": [
+     "prod_L2_knife/prod_L2_knife_r06__s6665025_reasoning_live.jsonl",
+     "prod_L2_knife/prod_L2_knife_r07__s1194783995_reasoning_live.jsonl",
+     "prod_L2_knife/prod_L2_knife_r08__s3802911242_reasoning_live.jsonl",
+     "prod_L2_knife/prod_L2_knife_r09__s1448925187_reasoning_live.jsonl",
+     "prod_L2_knife/prod_L2_knife_r10__s334787734_reasoning_live.jsonl",
+     "prod_L2_knife/prod_L2_knife_r11__s346329223_reasoning_live.jsonl",
+     "prod_L2_knife/prod_L2_knife_r12__s912515578_reasoning_live.jsonl",
+     "prod_L2_knife/prod_L2_knife_r13__s140813698_reasoning_live.jsonl",
+     "prod_L2_knife/prod_L2_knife_r14__s3431920944_reasoning_live.jsonl",
+     "prod_L2_knife/prod_L2_knife_r15__s1623171925_reasoning_live.jsonl"
+    ],
+    "skipped_note": "Gemma runs on seeds Qwen was never run on; they are in the unmatched cell figure and cannot enter a paired comparison"
+   },
+   "L3": {
+    "estimate": -0.406325,
+    "ci_lo": -0.536185,
+    "ci_hi": -0.242771,
+    "method": "percentile (paired on shared seed)",
+    "resamples": 10000,
+    "n": 5,
+    "denominator": 5,
+    "unit": "seed pairs",
+    "straddles_zero": false,
+    "fragile": true,
+    "per_run": [
+     -0.102231,
+     -0.603076,
+     -0.419102,
+     -0.454616,
+     -0.452598
+    ],
+    "direction": "gemma minus qwen",
+    "pairs": [
+     {
+      "seed": "1234170842",
+      "gemma": 0.77121,
+      "qwen": 0.873441,
+      "difference": -0.102231
+     },
+     {
+      "seed": "1742298302",
+      "gemma": 0.211766,
+      "qwen": 0.814842,
+      "difference": -0.603076
+     },
+     {
+      "seed": "2028295295",
+      "gemma": 0.285034,
+      "qwen": 0.704136,
+      "difference": -0.419102
+     },
+     {
+      "seed": "3982897368",
+      "gemma": 0.361943,
+      "qwen": 0.816559,
+      "difference": -0.454616
+     },
+     {
+      "seed": "3991572176",
+      "gemma": 0.423386,
+      "qwen": 0.875984,
+      "difference": -0.452598
+     }
+    ],
+    "skipped": [
+     "prod_L3_knife/prod_L3_knife_r01__s244785594_reasoning_live.jsonl",
+     "prod_L3_knife/prod_L3_knife_r02__s433055105_reasoning_live.jsonl",
+     "prod_L3_knife/prod_L3_knife_r03__s2224003574_reasoning_live.jsonl",
+     "prod_L3_knife/prod_L3_knife_r04__s321538326_reasoning_live.jsonl",
+     "prod_L3_knife/prod_L3_knife_r05__s2840109712_reasoning_live.jsonl"
+    ],
+    "skipped_note": "Gemma runs on seeds Qwen was never run on; they are in the unmatched cell figure and cannot enter a paired comparison"
+   },
+   "L4": {
+    "estimate": -0.460185,
+    "ci_lo": -0.587448,
+    "ci_hi": -0.352148,
+    "method": "percentile (paired on shared seed)",
+    "resamples": 10000,
+    "n": 5,
+    "denominator": 5,
+    "unit": "seed pairs",
+    "straddles_zero": false,
+    "fragile": true,
+    "per_run": [
+     -0.68808,
+     -0.52085,
+     -0.306834,
+     -0.352148,
+     -0.43301
+    ],
+    "direction": "gemma minus qwen",
+    "pairs": [
+     {
+      "seed": "1021064724",
+      "gemma": 0.120292,
+      "qwen": 0.808372,
+      "difference": -0.68808
+     },
+     {
+      "seed": "1130345851",
+      "gemma": 0.125522,
+      "qwen": 0.646372,
+      "difference": -0.52085
+     },
+     {
+      "seed": "3338320102",
+      "gemma": 0.294012,
+      "qwen": 0.600846,
+      "difference": -0.306834
+     },
+     {
+      "seed": "3702435781",
+      "gemma": 0.072413,
+      "qwen": 0.424561,
+      "difference": -0.352148
+     },
+     {
+      "seed": "3903893817",
+      "gemma": 0.218271,
+      "qwen": 0.65128,
+      "difference": -0.43301
+     }
+    ],
+    "skipped": [
+     "prod_L4_knife/prod_L4_knife_r02__s900169834_reasoning_live.jsonl",
+     "prod_L4_knife/prod_L4_knife_r07__s3882585189_reasoning_live.jsonl",
+     "prod_L4_knife/prod_L4_knife_r08__s1507009328_reasoning_live.jsonl",
+     "prod_L4_knife/prod_L4_knife_r09__s96999221_reasoning_live.jsonl",
+     "prod_L4_knife/prod_L4_knife_r10__s1046678069_reasoning_live.jsonl"
+    ],
+    "skipped_note": "Gemma runs on seeds Qwen was never run on; they are in the unmatched cell figure and cannot enter a paired comparison"
+   }
+  }
+ }
+}

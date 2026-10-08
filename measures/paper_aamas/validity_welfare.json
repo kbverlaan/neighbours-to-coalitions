@@ -1,0 +1,149 @@
+{
+ "levels": {
+  "L1": {
+   "runs": 45,
+   "turns": 81000,
+   "fallback": 0.0,
+   "errors": 0.0,
+   "retry": 1.2345679012345678e-05,
+   "recovered": 0.0,
+   "mean_final_med": 80.63863894127844
+  },
+  "L2": {
+   "runs": 45,
+   "turns": 81000,
+   "fallback": 0.0006049382716049383,
+   "errors": 0.0006666666666666666,
+   "retry": 0.0002345679012345679,
+   "recovered": 0.0002962962962962963,
+   "mean_final_med": 13.033687476234297
+  },
+  "L3": {
+   "runs": 30,
+   "turns": 54360,
+   "fallback": 0.0,
+   "errors": 0.005022075055187638,
+   "retry": 0.0012693156732891833,
+   "recovered": 0.0,
+   "mean_final_med": 11.946793682268641
+  },
+  "L4": {
+   "runs": 30,
+   "turns": 54000,
+   "fallback": 0.0,
+   "errors": 0.0024814814814814816,
+   "retry": 0.0015,
+   "recovered": 0.0,
+   "mean_final_med": 19.492565331203338
+  }
+ },
+ "arms": {
+  "L1": {
+   "gemma": {
+    "runs": 15,
+    "turns": 27000,
+    "fallback": 0.0,
+    "errors": 0.0,
+    "retry": 3.7037037037037037e-05,
+    "recovered": 0.0,
+    "mean_final_med": 80.63863894127844
+   },
+   "silent": {
+    "runs": 5,
+    "turns": 9000,
+    "fallback": 0.0,
+    "errors": 0.0,
+    "retry": 0.0,
+    "recovered": 0.0,
+    "mean_final_med": 46.14292752015449
+   }
+  },
+  "L2": {
+   "gemma": {
+    "runs": 15,
+    "turns": 27000,
+    "fallback": 0.0004814814814814815,
+    "errors": 0.0004814814814814815,
+    "retry": 0.0,
+    "recovered": 0.00022222222222222223,
+    "mean_final_med": 12.894441298558194
+   },
+   "silent": {
+    "runs": 5,
+    "turns": 9000,
+    "fallback": 0.0,
+    "errors": 0.0,
+    "retry": 0.0,
+    "recovered": 0.0,
+    "mean_final_med": 16.097283591289887
+   },
+   "qwen": {
+    "runs": 5,
+    "turns": 9000,
+    "fallback": 0.00011111111111111112,
+    "errors": 0.0,
+    "retry": 0.0,
+    "recovered": 0.0,
+    "mean_final_med": 9.483532235177062
+   }
+  },
+  "L3": {
+   "gemma": {
+    "runs": 10,
+    "turns": 18360,
+    "fallback": 0.0,
+    "errors": 0.0001633986928104575,
+    "retry": 0.0,
+    "recovered": 0.0,
+    "mean_final_med": 11.29436830569509
+   },
+   "silent": {
+    "runs": 5,
+    "turns": 9000,
+    "fallback": 0.0,
+    "errors": 0.0,
+    "retry": 0.00011111111111111112,
+    "recovered": 0.0,
+    "mean_final_med": 16.438785349701053
+   },
+   "qwen": {
+    "runs": 5,
+    "turns": 9000,
+    "fallback": 0.0,
+    "errors": 0.0,
+    "retry": 0.0,
+    "recovered": 0.0,
+    "mean_final_med": 8.135669780899166
+   }
+  },
+  "L4": {
+   "gemma": {
+    "runs": 10,
+    "turns": 18000,
+    "fallback": 0.0,
+    "errors": 0.0,
+    "retry": 0.0015,
+    "recovered": 0.0,
+    "mean_final_med": 61.17904877754396
+   },
+   "silent": {
+    "runs": 5,
+    "turns": 9000,
+    "fallback": 0.0,
+    "errors": 0.0,
+    "retry": 0.0,
+    "recovered": 0.0,
+    "mean_final_med": 16.33973234755617
+   },
+   "qwen": {
+    "runs": 5,
+    "turns": 9000,
+    "fallback": 0.0,
+    "errors": 0.0,
+    "retry": 0.0,
+    "recovered": 0.0,
+    "mean_final_med": 11.648720456031258
+   }
+  }
+ }
+}

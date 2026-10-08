@@ -1,0 +1,10 @@
+# Model backend for the main grid and the no-channel runs: Gemma 4 31B, native reasoning on,
+# served through an OpenAI-compatible endpoint. Per-run settings are recorded in each run's log.
+api_key_env_var: ""
+base_url: "http://localhost:8000/v1"
+model: "/path/to/Gemma-4-31B"
+temperature: 0.3
+max_tokens: 8000
+timeout: 900
+retry_attempts: 3
+retry_delay: 5

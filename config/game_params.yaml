@@ -1,0 +1,92 @@
+# Game Parameters — symbols match §3.1 of thesis.
+# All proportional values are fractions in [0, 1]; multipliers are scalars;
+# windows are integer rounds.
+
+# Agents
+num_agents: 30
+initial_resources: 100.0
+
+# Investment
+c_inv: 0.06                          # invest cost (fraction of actor's R) — REGISTERED base:
+                                     # sets rho* interior; temptation = 0.06 constant across the sweep
+g_inv: 0.091                         # invest return (fraction of actor's R transferred) — IV of the payoff
+                                     # sweep; base = knife-edge cell 3 (net growth 0%/r at c_inv 0.06,
+                                     # delta_R 0.97). Quintet: 0.039 / 0.065 / 0.091 / 0.117 / 0.142.
+gamma_sat: 1.00                      # saturation OFF — predation-permissive registered base; gamma_sat < 1
+                                     # (forced sociality) is an appendix control on L4, not the base
+tau_sat: 5                           # saturation window (rounds)
+
+# Arming
+arm_enabled: true                    # L2 rung flag: strengthen/arming affordance. When false,
+                                     # strengthen is a no-op and the prompt drops every arm reference
+                                     # (combat strength = resources only). Default true = legacy behaviour
+                                     # (arming keyed off mu_arm>0).
+c_arm: 0.05                          # arm cost (fraction of actor's R) — 5%
+mu_arm: 4.0                          # arm multiplier (bonus = cost × mu_arm) — REGISTERED:
+                                     # sponsored-strike loop lightly self-sustaining (+0.014R/r); 3.0 was
+                                     # break-even (deterrence only), 5.0 snowballs under scarcity
+delta_B: 0.75                        # arm decay factor — REGISTERED: transient advantage
+                                     # (retains 75%/round, no permanent stockpile)
+
+# Combat
+take_enabled: true                   # L2 rung flag: take/combat affordance. When false, any attack is
+                                     # neutralised to a no-op and the prompt drops the COMBAT block.
+alpha: 0.35                          # spoils = alpha × loser's R (fixed at 0.35, as VSC run)
+c_atk: 0.02                          # FLAT conflict cost (fraction of own R) — 2%, no escalation.
+                                     # eta_atk/tau_atk (attack-cost escalation) removed from prod; engine keeps
+                                     # them as default-off capability (eta=1.0 → flat), like lethal_pot.
+symmetric_stakes: true               # pot = alpha × defender in BOTH win-branches:
+                                     # capped stakes so targets are bled, not one-shot killed → institutions
+                                     # get time to form. Avoids premature mutual annihilation.
+lethal_pot: false                    # capability flag (OFF in prod). If true: phi = min(1, alpha·S_win/S_lose),
+                                     # loser-sized → a coalition ≥ (1/alpha)× the defender KILLS. For lethality probes only.
+
+# Commons (L4 rung — tragedy of the commons; OFF by default, flag-gated).
+# LOCKED config (probe job 24092054): the FIXED commons outside option
+# for the ladder — OFAT sweeps g_inv only, NOT these. Probe-derived tragedy threshold
+# sits between regen 1.5 and 1.0: at 1.5 the initial over-draw (stock dips to ~25%) is
+# RECOVERABLE → agents pull back, recover, manage sustainably (rich governance); at 1.0
+# the R1 over-grab collapses a non-renewing pool irreversibly; 2.0 is too generous.
+commons_enabled: false               # turn on the shared-stock rung
+commons_K: 120.0                     # carrying capacity (absolute, HIDDEN — agents see stock as % of K)
+commons_init: 60.0                   # LOCKED: start at MSY (K/2), not full → no buffer, dilemma bites from R1
+commons_regen: 1.5                   # LOCKED: fragile-but-recoverable regeneration (×1.5; 2.0=GovSim doubling=too easy)
+                                     # a real choice with opportunity cost; surfaces engagement the parallel field missed.
+                                     # "category" = GovSim %-of-K grid; "fraction_own" = parallel unbounded field (legacy probes)
+commons_collapse_frac: 0.05          # stock collapses permanently below this fraction of K (GovSim C = 5%)
+
+# Economy
+delta_R: 0.97                        # BASE resource decay (all rungs): R(t+1) = delta_R·(R(t) + ΔR).
+                                     # 3%/round survival pressure → covering it needs ~3.09% harvest.
+                                     # No self-invest → survival forces social action OR the commons
+                                     # (reinforces "order is inherently social"). 1.0 = no-decay legacy.
+
+# Game length
+max_rounds: 60                       # REGISTERED: R=60 = formation + stability window (P3;
+                                     # institution formation ~R15). Needs max-model-len 65536: measured
+                                     # prompts R30 ≈ 43k chars mean / 57k max → R60 ≈ 20-27k tokens, fits.
+                                     # SBU per run ≈ 2.7× a R30 run (prefill grows with round number).
+history_length: 10
+
+# Network
+network_enabled: true                # static topology = always-on substrate (transfer/take/strengthen
+                                     # are 1-hop). Present on EVERY rung; do not gate it by a rung flag.
+assoc_enabled: true                  # L3 rung flag: association = drop/invite rewiring. When false, no
+                                     # rewiring happens and the prompt drops every drop/invite reference
+                                     # (the topology is frozen). Default true = legacy behaviour
+                                     # (rewiring keyed off rewiring_prob>0).
+mean_degree: 5.0
+rewiring_prob: 0.0                   # w — IV (§3.3.2)
+
+# Communication
+comm_scope: "choice"                 # REGISTERED base: communication is always-on substrate (not a rung);
+                                     # "none" is reserved for the committed comms-off control cells.
+                                     # When on: one message/round to a LIST of target ids
+                                     # (message_to), free addressing to agents you know of,
+                                     # no broadcast channel. Legacy dm/broadcast/choice → on.
+
+# Memory (two layers: raw events on a recency window + agent notes)
+memory:
+  enabled: true
+  window_size: 10          # raw events (actions, messages, network, resources): last k rounds
+  notes_persist: true      # agent's own notes kept for the WHOLE game (false = windowed, legacy)

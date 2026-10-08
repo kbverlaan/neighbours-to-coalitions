@@ -1,0 +1,62 @@
+# REGISTERED PRODUCTION CELL — L3 x scar (generated from frozen ladder_L3.yaml;
+# only delta: g_inv). Confirmatory grid: 4 rungs x 3 payoff cells. Do not change after deposit.
+# Complexity ladder — RUNG 3: Association.
+# Affordances: L2 + drop/invite (network rewiring). No commons.
+# Comms + memory ON (always-on base substrate). Prod numeric params unchanged.
+# rewiring_prob > 0 so association actually has bite (w=0.5).
+#
+# Flag matrix (see ladder_L1.yaml header).
+
+num_agents: 30
+initial_resources: 100.0
+
+# Investment
+c_inv: 0.06
+g_inv: 0.039                         # REGISTERED payoff cell: scar (triplet 0.039/0.091/0.142)
+gamma_sat: 1.00
+tau_sat: 5
+
+# Arming — ON
+arm_enabled: true
+c_arm: 0.05
+mu_arm: 4.0
+delta_B: 0.75
+
+# Combat — ON
+take_enabled: true
+alpha: 0.35
+c_atk: 0.02
+symmetric_stakes: true
+lethal_pot: false
+
+# Commons — OFF on L3
+commons_enabled: false
+commons_K: 120.0
+commons_init: 120.0                   # dormant (commons_enabled false); parity with L4
+commons_regen: 1.5                    # dormant (commons off); parity with L4
+c_harvest: 0.03                       # dormant (commons off); parity with L4
+harvest_frac_cap: 0.04                # dormant; parity with L4
+commons_collapse_frac: 0.05
+commons_open_round: 2                 # inert while commons_enabled false (parity with L4)
+
+# Economy
+delta_R: 0.97
+
+# Game length
+max_rounds: 60
+history_length: 10
+
+# Network — association (rewiring) ON from L3; w>0 gives it bite
+network_enabled: true
+assoc_enabled: true
+mean_degree: 5.0
+rewiring_prob: 1.0                    # action = certain outcome (production)
+
+# Communication — ON (base substrate)
+comm_scope: "choice"
+
+# Memory — ON (base substrate)
+memory:
+  enabled: true
+  window_size: 10
+  notes_persist: true

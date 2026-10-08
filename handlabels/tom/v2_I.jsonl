@@ -1,0 +1,100 @@
+{"id": 1, "order": "2", "span": "He thinks I'm pairing with Cyan.", "minds": "writer -> Copper -> writer"}
+{"id": 2, "order": "1", "span": "Ivory is trying to start one with Slate, Bronze, Teal, Plum, Rust."}
+{"id": 3, "order": "2", "span": "Also Slate sees we attacked, reputation damage.", "minds": "writer -> Slate/other agents -> writer"}
+{"id": 4, "order": "1", "span": "Jade: -64.7 + 153.2 = +88.5"}
+{"id": 5, "order": "2", "span": "So for R15, likely Rust expects mutual transfer again.", "minds": "writer -> Rust -> writer"}
+{"id": 6, "order": "1", "span": "Apologies don't stop committed attacks."}
+{"id": 7, "order": "2", "span": "If we attack Dusk while claiming no attacks, damage reputation.", "minds": "writer -> Plum/other agents -> writer"}
+{"id": 8, "order": "2", "span": "But Bronze might attack us if he thinks we're coalition.", "minds": "writer -> Bronze -> writer"}
+{"id": 9, "order": "1", "span": "looking for peaceful connections"}
+{"id": 10, "order": "2", "span": "he has lied/skirted before", "minds": "writer -> Copper -> writer"}
+{"id": 11, "order": "2", "span": "If I attack Plum while they think I'm attacking Crimson", "minds": "writer -> Plum -> writer"}
+{"id": 12, "order": "2", "span": "she might not expect it now", "minds": "writer -> Pearl -> writer"}
+{"id": 13, "order": "0", "span": "Jade and Mauve have consistently chosen `hold`."}
+{"id": 14, "order": "2", "span": "Teal thinks I am Cyan", "minds": "writer -> Teal -> writer"}
+{"id": 15, "order": "1", "span": "Blue: Wants to attack Bronze."}
+{"id": 16, "order": "1", "span": "Bronze is actively seeking a partner"}
+{"id": 17, "order": "2", "span": "She doesn't know this round.", "minds": "writer -> Violet -> writer"}
+{"id": 18, "order": "1", "span": "Copper has huge resources and could transfer later?"}
+{"id": 19, "order": "0", "span": "All neighbors have been attacking or ignoring Olive."}
+{"id": 20, "order": "2", "span": "Could she be misleading and attacking with Onyx?", "minds": "writer -> Indigo -> writer"}
+{"id": 21, "order": "1", "span": "everyone has agreed to hold"}
+{"id": 22, "order": "1", "span": "According to the established pattern, Amber should transfer to Cyan in Round 20."}
+{"id": 23, "order": "2", "span": "she decides R58 without receiving our new message", "minds": "writer -> Coral -> writer"}
+{"id": 24, "order": "1", "span": "or is perceived as a target"}
+{"id": 25, "order": "0", "span": "All three agents (Jade, Amber, Indigo) are holding and decaying."}
+{"id": 26, "order": "1", "span": "Need consider if Green might fail?"}
+{"id": 27, "order": "2", "span": "Reciprocating maintains the trust and the cycle.", "minds": "writer -> Scarlet -> writer"}
+{"id": 28, "order": "2", "span": "he may not have seen Blue's R4 action?", "minds": "writer -> Copper -> writer"}
+{"id": 29, "order": "2", "span": "Could Copper not send because he thinks we didn't reciprocate R51?", "minds": "writer -> Copper -> writer"}
+{"id": 30, "order": "0", "span": "All neighbors are essentially bankrupt or near 0."}
+{"id": 31, "order": "1", "span": "Wants a massive synchronized plan for Amber."}
+{"id": 32, "order": "1", "span": "confirms their intent to continue"}
+{"id": 33, "order": "1", "span": "watch Scarlet recruiting"}
+{"id": 34, "order": "2", "span": "What if Sage anticipates Amber might attack and therefore doesn't transfer?", "minds": "writer -> Sage -> writer"}
+{"id": 35, "order": "1", "span": "Silver's resources after paying: 102.7 - (102.7 * 0.06) = 102.7 - 6.16 = 96.54."}
+{"id": 36, "order": "1", "span": "Inviting might bring a new hostile neighbor."}
+{"id": 37, "order": "2", "span": "But I can position myself to be the one strengthened by showing commitment.", "minds": "writer -> Copper -> writer"}
+{"id": 38, "order": "0", "span": "All neighbors are extremely depleted."}
+{"id": 39, "order": "2", "span": "Attacking Red could be seen as predatory but everyone knows we're surviving.", "minds": "writer -> other agents -> writer"}
+{"id": 40, "order": "2", "span": "Ash: Untrusted (lied in R5/R6).", "minds": "writer -> Ash -> writer"}
+{"id": 41, "order": "0", "span": "Coral is my only neighbor."}
+{"id": 42, "order": "0", "span": "Maroon is the only wealthy neighbor but consistently ignores pleas."}
+{"id": 43, "order": "2", "span": "Thus she doesn't know we transferred R16.", "minds": "writer -> Sage -> writer"}
+{"id": 44, "order": "2", "span": "Coral explicitly lied.", "minds": "writer -> Coral -> writer"}
+{"id": 45, "order": "2", "span": "others may see us as aggressive", "minds": "writer -> other agents -> writer"}
+{"id": 46, "order": "2", "span": "following Copper's lead maintains trust", "minds": "writer -> Copper/NAP group -> writer"}
+{"id": 47, "order": "1", "span": "Gold will likely be eliminated by decay or other attackers soon"}
+{"id": 48, "order": "1", "span": "I could ask for a transfer, but Blue might not comply."}
+{"id": 49, "order": "1", "span": "Copper (48.8) prioritizes Ash loop, refuses aid until I stabilize >15."}
+{"id": 50, "order": "0", "span": "Jade also holds."}
+{"id": 51, "order": "2", "span": "Maybe strengthen as trust signal?", "minds": "writer -> Slate -> writer"}
+{"id": 52, "order": "2", "span": "loses reciprocal transfer benefit (~2.8 net) and trust", "minds": "writer -> Silver -> writer"}
+{"id": 53, "order": "1", "span": "Sage and Teal have consistently agreed to `hold` since Round 1."}
+{"id": 54, "order": "0", "span": "incoming Cobalt says transferring this round as agreed, asks transfer back"}
+{"id": 55, "order": "0", "span": "still isolated — only connection Olive eliminated"}
+{"id": 56, "order": "1", "span": "wants everyone to join"}
+{"id": 57, "order": "2", "span": "I need to maintain the trust of Blue, Bronze, and Pearl.", "minds": "writer -> Blue/Bronze/Pearl -> writer"}
+{"id": 58, "order": "0", "span": "Plum has been consistently transferring to me for several rounds."}
+{"id": 59, "order": "1", "span": "he might retaliate or drop me"}
+{"id": 60, "order": "1", "span": "Cyan wants to attack Violet, not Amber."}
+{"id": 61, "order": "1", "span": "Keep the communication lines open to ensure no one is planning a betrayal."}
+{"id": 62, "order": "1", "span": "A new agreement among mid-tier agents"}
+{"id": 63, "order": "2", "span": "would likely be seen as a breach of the NAP", "minds": "writer -> Dusk/loyalists -> writer"}
+{"id": 64, "order": "1", "span": "Cyan needs Copper's ID."}
+{"id": 65, "order": "2", "span": "But they may not trust us because we attacked.", "minds": "writer -> Cyan/Rust -> writer"}
+{"id": 66, "order": "1", "span": "The coalition is in a \"Recovery Phase\" with a \"Safety Floor\" of 20."}
+{"id": 67, "order": "2", "span": "Wait, Indigo thinks I'm connected to Storm?", "minds": "writer -> Indigo -> writer"}
+{"id": 68, "order": "0", "span": "Gold is the only strong agent left (21.1). Everyone else is near 0."}
+{"id": 69, "order": "1", "span": "Violet: 10.0 (hostile, betrayed non-aggression R6, attacked me)"}
+{"id": 70, "order": "2", "span": "Maintain the image of a cooperative, non-aggressive agent.", "minds": "writer -> other agents -> writer"}
+{"id": 71, "order": "1", "span": "NPA active with Copper, Gold, Olive, Scarlet."}
+{"id": 72, "order": "0", "span": "Sage and Storm are consistently harvesting and are slightly wealthier."}
+{"id": 73, "order": "1", "span": "So actually, Ivory is gaining slightly, and I am breaking even."}
+{"id": 74, "order": "0", "span": "Jade has been reliable since Round 6."}
+{"id": 75, "order": "2", "span": "she might think we are not reciprocating and stop", "minds": "writer -> Pearl -> writer"}
+{"id": 76, "order": "2", "span": "I need to manage my image.", "minds": "writer -> other agents -> writer"}
+{"id": 77, "order": "0", "span": "Neighbors (Dusk, Olive, Rust) have been passive/non-aggressive for many rounds."}
+{"id": 78, "order": "1", "span": "risks triggering a cycle of retaliation"}
+{"id": 79, "order": "2", "span": "What if other agents (Teal, Plum) observe our refusal to help Slate and think we are untrustworthy?", "minds": "writer -> Teal/Plum -> writer"}
+{"id": 80, "order": "1", "span": "Blue is at 0.9, likely holding."}
+{"id": 81, "order": "2", "span": "We would be marked as defector.", "minds": "writer -> Red/other agents -> writer"}
+{"id": 82, "order": "1", "span": "Expected outcome: Cyan reciprocates in R38."}
+{"id": 83, "order": "1", "span": "Silver: Still seeking a partner"}
+{"id": 84, "order": "1", "span": "So Teal and Cyan might be attacking Plum this round!"}
+{"id": 85, "order": "1", "span": "Green has been rejecting other offers (Scarlet, Amber, Olive), showing commitment."}
+{"id": 86, "order": "2", "span": "If we break, they may not trust us.", "minds": "writer -> other agents -> writer"}
+{"id": 87, "order": "2", "span": "He lied before", "minds": "writer -> Plum -> writer"}
+{"id": 88, "order": "1", "span": "If I don't, she might become hostile."}
+{"id": 89, "order": "1", "span": "Others (Ash 0.2, Copper 1.5, Maroon 6.6, Mauve 42.9) weak/hostile."}
+{"id": 90, "order": "1", "span": "Non-aggression pact with Teal/Cyan holds."}
+{"id": 91, "order": "1", "span": "Cobalt might side with Teal? likely dangerous."}
+{"id": 92, "order": "1", "span": "Cyan and Slate stopped attacking me because the pot (35% of my resources) became too small to offset the conflict cost (2% of their resources)."}
+{"id": 93, "order": "0", "span": "Everyone is holding."}
+{"id": 94, "order": "1", "span": "Attacking me is strictly -EV for neighbors."}
+{"id": 95, "order": "1", "span": "If Teal decides to attack me or others in our group, we'd be in trouble."}
+{"id": 96, "order": "0", "span": "Repeated transfer requests ignored."}
+{"id": 97, "order": "1", "span": "expect Ash->Jade and Maroon->Ash; reliable"}
+{"id": 98, "order": "1", "span": "she wants a strike on Blue in R17"}
+{"id": 99, "order": "1", "span": "Eventually, I will become a target."}
+{"id": 100, "order": "0", "span": "48 consecutive rounds of \"hold\" by all three agents."}

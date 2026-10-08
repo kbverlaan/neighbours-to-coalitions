@@ -1,0 +1,18 @@
+# Raw run logs (~33 GB) — not distributed. Request from the author and place
+# at data/thesis_final/ to regenerate figures and tables.
+/data
+
+# Secrets
+.env
+*.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# OS cruft
+.DS_Store
+
+# Regenerable caches and staging artifacts
+measures/plots/cache/
+measures/out/*.staging.json

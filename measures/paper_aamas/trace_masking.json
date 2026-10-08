@@ -1,0 +1,23 @@
+{
+ "n": 14400,
+ "masked_token_share": 0.0528,
+ "separation_raw": {
+  "L1-L2": 0.62,
+  "L1-L3": 0.659,
+  "L1-L4": 0.665,
+  "L2-L3": 0.247,
+  "L2-L4": 0.591,
+  "L3-L4": 0.62
+ },
+ "separation_masked": {
+  "L1-L2": 0.546,
+  "L1-L3": 0.556,
+  "L1-L4": 0.528,
+  "L2-L3": 0.224,
+  "L2-L4": 0.447,
+  "L3-L4": 0.47
+ },
+ "nearest_centroid_acc_raw": 0.738,
+ "nearest_centroid_acc_masked": 0.665,
+ "chance": 0.25
+}

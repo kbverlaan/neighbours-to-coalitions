@@ -1,0 +1,532 @@
+{
+ "alle": {
+  "names_any": {
+   "class": "form",
+   "cap": 0.69,
+   "price": 0.01,
+   "cap_ci": [
+    0.59,
+    0.83
+   ],
+   "price_ci": [
+    0.0,
+    0.08
+   ]
+  },
+  "Q": {
+   "class": "form",
+   "cap": 0.76,
+   "price": 0.12,
+   "cap_ci": [
+    0.71,
+    0.83
+   ],
+   "price_ci": [
+    0.06,
+    0.24
+   ]
+  },
+  "cons": {
+   "class": "form",
+   "cap": 0.79,
+   "price": 0.17,
+   "cap_ci": [
+    0.77,
+    0.84
+   ],
+   "price_ci": [
+    0.08,
+    0.31
+   ]
+  },
+  "pairs_any": {
+   "class": "form",
+   "cap": 0.19,
+   "price": 0.52,
+   "cap_ci": [
+    0.1,
+    0.35
+   ],
+   "price_ci": [
+    0.43,
+    0.65
+   ]
+  },
+  "dyads": {
+   "class": "volume",
+   "cap": 0.27,
+   "price": 0.63,
+   "cap_ci": [
+    0.2,
+    0.42
+   ],
+   "price_ci": [
+    0.57,
+    0.73
+   ]
+  },
+  "econ": {
+   "class": "volume",
+   "cap": 0.65,
+   "price": 0.8,
+   "cap_ci": [
+    0.59,
+    0.78
+   ],
+   "price_ci": [
+    0.72,
+    0.89
+   ]
+  },
+  "floor_ratio": {
+   "class": "distribution",
+   "cap": 0.74,
+   "price": 0.29,
+   "cap_ci": [
+    0.68,
+    0.82
+   ],
+   "price_ci": [
+    0.21,
+    0.43
+   ]
+  },
+  "gini": {
+   "class": "distribution",
+   "cap": 0.66,
+   "price": 0.37,
+   "cap_ci": [
+    0.58,
+    0.77
+   ],
+   "price_ci": [
+    0.27,
+    0.52
+   ]
+  }
+ },
+ "zonder L1": {
+  "names_any": {
+   "class": "form",
+   "cap": 0.01,
+   "price": 0.01,
+   "cap_ci": [
+    0.0,
+    0.1
+   ],
+   "price_ci": [
+    0.0,
+    0.11
+   ]
+  },
+  "Q": {
+   "class": "form",
+   "cap": 0.73,
+   "price": 0.06,
+   "cap_ci": [
+    0.69,
+    0.8
+   ],
+   "price_ci": [
+    0.01,
+    0.2
+   ]
+  },
+  "cons": {
+   "class": "form",
+   "cap": 0.54,
+   "price": 0.08,
+   "cap_ci": [
+    0.47,
+    0.64
+   ],
+   "price_ci": [
+    0.01,
+    0.22
+   ]
+  },
+  "pairs_any": {
+   "class": "form",
+   "cap": 0.18,
+   "price": 0.33,
+   "cap_ci": [
+    0.08,
+    0.35
+   ],
+   "price_ci": [
+    0.23,
+    0.51
+   ]
+  },
+  "dyads": {
+   "class": "volume",
+   "cap": 0.19,
+   "price": 0.48,
+   "cap_ci": [
+    0.1,
+    0.35
+   ],
+   "price_ci": [
+    0.38,
+    0.63
+   ]
+  },
+  "econ": {
+   "class": "volume",
+   "cap": 0.43,
+   "price": 0.68,
+   "cap_ci": [
+    0.34,
+    0.59
+   ],
+   "price_ci": [
+    0.57,
+    0.81
+   ]
+  },
+  "floor_ratio": {
+   "class": "distribution",
+   "cap": 0.67,
+   "price": 0.01,
+   "cap_ci": [
+    0.6,
+    0.77
+   ],
+   "price_ci": [
+    0.0,
+    0.11
+   ]
+  },
+  "gini": {
+   "class": "distribution",
+   "cap": 0.49,
+   "price": 0.19,
+   "cap_ci": [
+    0.39,
+    0.64
+   ],
+   "price_ci": [
+    0.08,
+    0.37
+   ]
+  }
+ },
+ "zonder L2": {
+  "names_any": {
+   "class": "form",
+   "cap": 0.8,
+   "price": 0.01,
+   "cap_ci": [
+    0.7,
+    0.94
+   ],
+   "price_ci": [
+    0.0,
+    0.1
+   ]
+  },
+  "Q": {
+   "class": "form",
+   "cap": 0.67,
+   "price": 0.03,
+   "cap_ci": [
+    0.61,
+    0.77
+   ],
+   "price_ci": [
+    0.0,
+    0.15
+   ]
+  },
+  "cons": {
+   "class": "form",
+   "cap": 0.83,
+   "price": 0.32,
+   "cap_ci": [
+    0.79,
+    0.89
+   ],
+   "price_ci": [
+    0.21,
+    0.49
+   ]
+  },
+  "pairs_any": {
+   "class": "form",
+   "cap": 0.12,
+   "price": 0.62,
+   "cap_ci": [
+    0.06,
+    0.27
+   ],
+   "price_ci": [
+    0.53,
+    0.77
+   ]
+  },
+  "dyads": {
+   "class": "volume",
+   "cap": 0.29,
+   "price": 0.61,
+   "cap_ci": [
+    0.22,
+    0.46
+   ],
+   "price_ci": [
+    0.55,
+    0.73
+   ]
+  },
+  "econ": {
+   "class": "volume",
+   "cap": 0.67,
+   "price": 0.79,
+   "cap_ci": [
+    0.61,
+    0.8
+   ],
+   "price_ci": [
+    0.68,
+    0.91
+   ]
+  },
+  "floor_ratio": {
+   "class": "distribution",
+   "cap": 0.86,
+   "price": 0.69,
+   "cap_ci": [
+    0.77,
+    0.95
+   ],
+   "price_ci": [
+    0.63,
+    0.84
+   ]
+  },
+  "gini": {
+   "class": "distribution",
+   "cap": 0.65,
+   "price": 0.56,
+   "cap_ci": [
+    0.55,
+    0.78
+   ],
+   "price_ci": [
+    0.48,
+    0.68
+   ]
+  }
+ },
+ "zonder L3": {
+  "names_any": {
+   "class": "form",
+   "cap": 0.74,
+   "price": 0.01,
+   "cap_ci": [
+    0.64,
+    0.88
+   ],
+   "price_ci": [
+    0.0,
+    0.09
+   ]
+  },
+  "Q": {
+   "class": "form",
+   "cap": 0.66,
+   "price": 0.24,
+   "cap_ci": [
+    0.57,
+    0.76
+   ],
+   "price_ci": [
+    0.14,
+    0.4
+   ]
+  },
+  "cons": {
+   "class": "form",
+   "cap": 0.67,
+   "price": 0.22,
+   "cap_ci": [
+    0.63,
+    0.75
+   ],
+   "price_ci": [
+    0.11,
+    0.38
+   ]
+  },
+  "pairs_any": {
+   "class": "form",
+   "cap": 0.2,
+   "price": 0.56,
+   "cap_ci": [
+    0.08,
+    0.38
+   ],
+   "price_ci": [
+    0.47,
+    0.7
+   ]
+  },
+  "dyads": {
+   "class": "volume",
+   "cap": 0.11,
+   "price": 0.64,
+   "cap_ci": [
+    0.02,
+    0.31
+   ],
+   "price_ci": [
+    0.59,
+    0.74
+   ]
+  },
+  "econ": {
+   "class": "volume",
+   "cap": 0.62,
+   "price": 0.86,
+   "cap_ci": [
+    0.5,
+    0.77
+   ],
+   "price_ci": [
+    0.82,
+    0.93
+   ]
+  },
+  "floor_ratio": {
+   "class": "distribution",
+   "cap": 0.68,
+   "price": 0.48,
+   "cap_ci": [
+    0.6,
+    0.77
+   ],
+   "price_ci": [
+    0.39,
+    0.61
+   ]
+  },
+  "gini": {
+   "class": "distribution",
+   "cap": 0.71,
+   "price": 0.54,
+   "cap_ci": [
+    0.63,
+    0.82
+   ],
+   "price_ci": [
+    0.44,
+    0.66
+   ]
+  }
+ },
+ "zonder L4": {
+  "names_any": {
+   "class": "form",
+   "cap": 0.69,
+   "price": 0.01,
+   "cap_ci": [
+    0.58,
+    0.83
+   ],
+   "price_ci": [
+    0.0,
+    0.1
+   ]
+  },
+  "Q": {
+   "class": "form",
+   "cap": 0.72,
+   "price": 0.33,
+   "cap_ci": [
+    0.64,
+    0.81
+   ],
+   "price_ci": [
+    0.22,
+    0.5
+   ]
+  },
+  "cons": {
+   "class": "form",
+   "cap": 0.89,
+   "price": 0.18,
+   "cap_ci": [
+    0.86,
+    0.91
+   ],
+   "price_ci": [
+    0.08,
+    0.33
+   ]
+  },
+  "pairs_any": {
+   "class": "form",
+   "cap": 0.17,
+   "price": 0.56,
+   "cap_ci": [
+    0.05,
+    0.39
+   ],
+   "price_ci": [
+    0.45,
+    0.71
+   ]
+  },
+  "dyads": {
+   "class": "volume",
+   "cap": 0.43,
+   "price": 0.76,
+   "cap_ci": [
+    0.34,
+    0.57
+   ],
+   "price_ci": [
+    0.71,
+    0.83
+   ]
+  },
+  "econ": {
+   "class": "volume",
+   "cap": 0.67,
+   "price": 0.81,
+   "cap_ci": [
+    0.6,
+    0.78
+   ],
+   "price_ci": [
+    0.71,
+    0.9
+   ]
+  },
+  "floor_ratio": {
+   "class": "distribution",
+   "cap": 0.61,
+   "price": 0.17,
+   "cap_ci": [
+    0.53,
+    0.72
+   ],
+   "price_ci": [
+    0.07,
+    0.32
+   ]
+  },
+  "gini": {
+   "class": "distribution",
+   "cap": 0.58,
+   "price": 0.3,
+   "cap_ci": [
+    0.5,
+    0.7
+   ],
+   "price_ci": [
+    0.18,
+    0.48
+   ]
+  }
+ }
+}

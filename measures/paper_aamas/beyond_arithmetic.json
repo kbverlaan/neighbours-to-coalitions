@@ -1,0 +1,131 @@
+{
+ "L2": {
+  "gemma": {
+   "runs": 45,
+   "acts": 2623,
+   "lone_losing": 0.33587495234464354,
+   "lone_losing_in_coalition": 0.5766174801362088,
+   "coalition": 0.44757910789172706,
+   "fights_per_run": 42.733333333333334,
+   "fights_lone_losing": 0.2672906916276651
+  },
+  "gemma_knife": {
+   "runs": 15,
+   "acts": 1009,
+   "lone_losing": 0.34489593657086226,
+   "lone_losing_in_coalition": 0.5632183908045977,
+   "coalition": 0.4122893954410307,
+   "fights_per_run": 50.8,
+   "fights_lone_losing": 0.2690288713910761
+  },
+  "silent": {
+   "runs": 5,
+   "acts": 0,
+   "lone_losing": 0.0,
+   "lone_losing_in_coalition": 0.0,
+   "coalition": 0.0,
+   "fights_per_run": 0.0,
+   "fights_lone_losing": 0.0
+  },
+  "qwen": {
+   "runs": 5,
+   "acts": 2204,
+   "lone_losing": 0.14292196007259528,
+   "lone_losing_in_coalition": 0.20634920634920634,
+   "coalition": 0.4591651542649728,
+   "fights_per_run": 320.8,
+   "fights_lone_losing": 0.16271820448877805
+  },
+  "words_gemma": {
+   "runs": 45,
+   "whale": 41,
+   "whale_hunt": 0
+  }
+ },
+ "L3": {
+  "gemma": {
+   "runs": 30,
+   "acts": 12062,
+   "lone_losing": 0.815453490300116,
+   "lone_losing_in_coalition": 0.9297478649857666,
+   "coalition": 0.9092190349859062,
+   "fights_per_run": 97.6,
+   "fights_lone_losing": 0.6137295081967213
+  },
+  "gemma_knife": {
+   "runs": 10,
+   "acts": 4885,
+   "lone_losing": 0.8571136131013306,
+   "lone_losing_in_coalition": 0.9388583711487939,
+   "coalition": 0.928761514841351,
+   "fights_per_run": 101.1,
+   "fights_lone_losing": 0.6834817012858556
+  },
+  "silent": {
+   "runs": 5,
+   "acts": 329,
+   "lone_losing": 0.030395136778115502,
+   "lone_losing_in_coalition": 0.1,
+   "coalition": 0.6899696048632219,
+   "fights_per_run": 33.4,
+   "fights_lone_losing": 0.05389221556886228
+  },
+  "qwen": {
+   "runs": 5,
+   "acts": 2286,
+   "lone_losing": 0.12992125984251968,
+   "lone_losing_in_coalition": 0.32323232323232326,
+   "coalition": 0.48600174978127736,
+   "fights_per_run": 321.6,
+   "fights_lone_losing": 0.13743781094527363
+  },
+  "words_gemma": {
+   "runs": 30,
+   "whale": 30,
+   "whale_hunt": 26
+  }
+ },
+ "L4": {
+  "gemma": {
+   "runs": 30,
+   "acts": 4,
+   "lone_losing": 1.0,
+   "lone_losing_in_coalition": 1.0,
+   "coalition": 1.0,
+   "fights_per_run": 0.06666666666666667,
+   "fights_lone_losing": 1.0
+  },
+  "gemma_knife": {
+   "runs": 10,
+   "acts": 0,
+   "lone_losing": 0.0,
+   "lone_losing_in_coalition": 0.0,
+   "coalition": 0.0,
+   "fights_per_run": 0.0,
+   "fights_lone_losing": 0.0
+  },
+  "silent": {
+   "runs": 5,
+   "acts": 38,
+   "lone_losing": 0.05263157894736842,
+   "lone_losing_in_coalition": 0.0,
+   "coalition": 0.7631578947368421,
+   "fights_per_run": 3.4,
+   "fights_lone_losing": 0.11764705882352941
+  },
+  "qwen": {
+   "runs": 5,
+   "acts": 1571,
+   "lone_losing": 0.17377466581795034,
+   "lone_losing_in_coalition": 0.30036630036630035,
+   "coalition": 0.5162316995544239,
+   "fights_per_run": 215.4,
+   "fights_lone_losing": 0.1903435468895079
+  },
+  "words_gemma": {
+   "runs": 30,
+   "whale": 9,
+   "whale_hunt": 0
+  }
+ }
+}

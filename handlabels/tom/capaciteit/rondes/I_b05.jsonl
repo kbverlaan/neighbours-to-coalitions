@@ -1,0 +1,16 @@
+{"id": 12, "order": "2", "span": "\"they might think I'm still fooled\" (nesting: order 1 = writer is fooled/not; order 2 = Cobalt/Maroon/Slate's belief about that writer-state)"}
+{"id": 13, "order": "0", "span": "Net gain (approx): 11.9 - 4.8 = 7.1."}
+{"id": 14, "order": "1", "span": "Violet's resources after transfer: $R_V - 0.06 R_V + 0.142 R_S$"}
+{"id": 15, "order": "1", "span": "This means Olive intends to transfer to Ash in Round 8."}
+{"id": 16, "order": "0", "span": "Expected receipt from Maroon: Maroon's resources are 177.5. Maroon's transfer to Onyx = 14.2% of 177.5 = 25.2."}
+{"id": 17, "order": "1", "span": "Amber will transfer back in R18."}
+{"id": 18, "order": "1", "span": "Teal's expected action: `transfer` to Mauve (based on history)."}
+{"id": 19, "order": "0", "span": "Net gain from harvest: 0.888 - 0.666 = 0.222 units."}
+{"id": 20, "order": "1", "span": "Advising Mauve (external) to hold because Mauve is too weak to attack Gold, Silver, or Bronze."}
+{"id": 21, "order": "1", "span": "everyone is acting rationally to maximize their own resources"}
+{"id": 22, "order": "2", "span": "could be interpreted as aggression or a breach of trust (nesting: order 1 = writer holds/acts; order 2 = unnamed others' belief, reading the action as aggression, about the writer)"}
+{"id": 23, "order": "0", "span": "Expected gain: Ash transfers to me. Ash's resources are 186.4. Ash's transfer to me = 14.2% of 186.4 = 26.5."}
+{"id": 24, "order": "1", "span": "Ash is trying to build strength to attack Bronze"}
+{"id": 25, "order": "0", "span": "A pays $0.06R$, receives $0.091R$."}
+{"id": 26, "order": "2", "span": "I look like I'm trying to hoard, which makes me a bigger target (nesting: order 1 = writer's own action/intent; order 2 = the coalition's belief/reading of that intent as hoarding)"}
+{"id": 27, "order": "1", "span": "If Plum decides to retaliate, I'm in trouble."}

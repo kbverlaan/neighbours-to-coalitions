@@ -1,0 +1,297 @@
+{
+ "prod_L3_knife": {
+  "runs": 10,
+  "invites": 2017,
+  "invite_target": [
+   0.6013882002974715,
+   0.062385905226731396
+  ],
+  "invite_partner": [
+   0.18393653941497273,
+   0.460273369929239
+  ],
+  "invite_other": [
+   0.21467526028755576,
+   0.4773407248440289
+  ],
+  "msg_contact_before_invite": [
+   0.027268220128904314,
+   0.02299198057058806
+  ],
+  "invitee_named_before_invite": [
+   0.991571641051066,
+   0.353710171797296
+  ],
+  "new_tie_kept_after_W": 1.0,
+  "initial_tie_kept_after_W": 1.0,
+  "target_tie_dropped_within_3_after_attack": [
+   0.0,
+   1213
+  ],
+  "joint_participations": 4537,
+  "joint_own_invite_to_target": 0.3976195724046727,
+  "joint_named_then_invite": 0.3951950628168393,
+  "solo_participations": 348,
+  "solo_own_invite_to_target": 0.27873563218390807,
+  "solo_named_then_invite": 0.27586206896551724,
+  "early: degree / invites / joint fights / any-invited / chain": [
+   10.1,
+   1394,
+   354,
+   0.81,
+   0.55
+  ],
+  "mid: degree / invites / joint fights / any-invited / chain": [
+   17.1,
+   592,
+   257,
+   0.51,
+   0.26
+  ],
+  "late: degree / invites / joint fights / any-invited / chain": [
+   18.5,
+   31,
+   52,
+   0.21,
+   0.05
+  ],
+  "joint_any_attacker_invited_target": 0.7271324663874807,
+  "joint_full_chain": 0.37447652633899053
+ },
+ "prod_L3_scar": {
+  "runs": 10,
+  "invites": 1736,
+  "invite_target": [
+   0.5086405529953917,
+   0.050900007946289065
+  ],
+  "invite_partner": [
+   0.19642857142857142,
+   0.39841846587980395
+  ],
+  "invite_other": [
+   0.29493087557603687,
+   0.5506815261739081
+  ],
+  "msg_contact_before_invite": [
+   0.051267281105990783,
+   0.03346584291300538
+  ],
+  "invitee_named_before_invite": [
+   0.9930875576036866,
+   0.41443359537133945
+  ],
+  "new_tie_kept_after_W": 0.996537795729948,
+  "initial_tie_kept_after_W": 0.9986301369863013,
+  "target_tie_dropped_within_3_after_attack": [
+   0.0022650056625141564,
+   883
+  ],
+  "joint_participations": 3549,
+  "joint_own_invite_to_target": 0.3888419273034658,
+  "joint_named_then_invite": 0.388560157790927,
+  "solo_participations": 378,
+  "solo_own_invite_to_target": 0.2619047619047619,
+  "solo_named_then_invite": 0.25925925925925924,
+  "early: degree / invites / joint fights / any-invited / chain": [
+   9.6,
+   1227,
+   328,
+   0.82,
+   0.5
+  ],
+  "mid: degree / invites / joint fights / any-invited / chain": [
+   14.9,
+   439,
+   195,
+   0.48,
+   0.26
+  ],
+  "late: degree / invites / joint fights / any-invited / chain": [
+   16.2,
+   70,
+   87,
+   0.28,
+   0.06
+  ],
+  "joint_any_attacker_invited_target": 0.7004790081713158,
+  "joint_full_chain": 0.3598196675119752
+ },
+ "prod_L3_abund": {
+  "runs": 10,
+  "invites": 1453,
+  "invite_target": [
+   0.5925671025464556,
+   0.055203706476765736
+  ],
+  "invite_partner": [
+   0.10805230557467309,
+   0.2935916310950189
+  ],
+  "invite_other": [
+   0.2993805918788713,
+   0.6512046624282154
+  ],
+  "msg_contact_before_invite": [
+   0.031658637302133516,
+   0.017864533788496745
+  ],
+  "invitee_named_before_invite": [
+   0.9903647625602202,
+   0.3969176743344801
+  ],
+  "new_tie_kept_after_W": 0.9930891499654457,
+  "initial_tie_kept_after_W": 1.0,
+  "target_tie_dropped_within_3_after_attack": [
+   0.008130081300813009,
+   861
+  ],
+  "joint_participations": 2881,
+  "joint_own_invite_to_target": 0.46928149947934744,
+  "joint_named_then_invite": 0.46928149947934744,
+  "solo_participations": 369,
+  "solo_own_invite_to_target": 0.24390243902439024,
+  "solo_named_then_invite": 0.24390243902439024,
+  "early: degree / invites / joint fights / any-invited / chain": [
+   8.5,
+   984,
+   327,
+   0.84,
+   0.55
+  ],
+  "mid: degree / invites / joint fights / any-invited / chain": [
+   13.0,
+   387,
+   166,
+   0.55,
+   0.35
+  ],
+  "late: degree / invites / joint fights / any-invited / chain": [
+   14.3,
+   82,
+   67,
+   0.39,
+   0.22
+  ],
+  "joint_any_attacker_invited_target": 0.7417563346060396,
+  "joint_full_chain": 0.43353002429711907
+ },
+ "robust_qwen_L3_knife": {
+  "runs": 5,
+  "invites": 233,
+  "invite_target": [
+   0.5493562231759657,
+   0.036255147854293596
+  ],
+  "invite_partner": [
+   0.004291845493562232,
+   0.037553535218211455
+  ],
+  "invite_other": [
+   0.44635193133047213,
+   0.9261913169274952
+  ],
+  "msg_contact_before_invite": [
+   0.21888412017167383,
+   0.02654004409876192
+  ],
+  "invitee_named_before_invite": [
+   0.5622317596566524,
+   0.1412473925886154
+  ],
+  "new_tie_kept_after_W": 0.8260869565217391,
+  "initial_tie_kept_after_W": 0.9483204134366925,
+  "target_tie_dropped_within_3_after_attack": [
+   0.28125,
+   128
+  ],
+  "joint_participations": 1111,
+  "joint_own_invite_to_target": 0.13141314131413143,
+  "joint_named_then_invite": 0.1116111611161116,
+  "solo_participations": 1175,
+  "solo_own_invite_to_target": 0.10893617021276596,
+  "solo_named_then_invite": 0.05446808510638298,
+  "early: degree / invites / joint fights / any-invited / chain": [
+   5.3,
+   103,
+   280,
+   0.27,
+   0.06
+  ],
+  "mid: degree / invites / joint fights / any-invited / chain": [
+   5.4,
+   93,
+   132,
+   0.22,
+   0.02
+  ],
+  "late: degree / invites / joint fights / any-invited / chain": [
+   5.7,
+   37,
+   21,
+   0.29,
+   0.15
+  ],
+  "joint_any_attacker_invited_target": 0.2907290729072907,
+  "joint_full_chain": 0.05310531053105311
+ },
+ "prod_L3_knife_nocomm": {
+  "runs": 5,
+  "invites": 300,
+  "invite_target": [
+   0.05333333333333334,
+   0.0033807060343673608
+  ],
+  "invite_partner": [
+   0.016666666666666666,
+   0.014546742062073867
+  ],
+  "invite_other": [
+   0.93,
+   0.9820725519035587
+  ],
+  "msg_contact_before_invite": [
+   0.0,
+   0.0
+  ],
+  "invitee_named_before_invite": [
+   0.0,
+   0.0
+  ],
+  "new_tie_kept_after_W": 0.9966329966329966,
+  "initial_tie_kept_after_W": 0.9972144846796658,
+  "target_tie_dropped_within_3_after_attack": [
+   0.0625,
+   16
+  ],
+  "joint_participations": 227,
+  "joint_own_invite_to_target": 0.09691629955947137,
+  "joint_named_then_invite": 0.0,
+  "solo_participations": 102,
+  "solo_own_invite_to_target": 0.06862745098039216,
+  "solo_named_then_invite": 0.0,
+  "early: degree / invites / joint fights / any-invited / chain": [
+   6.0,
+   199,
+   16,
+   0.31,
+   0.0
+  ],
+  "mid: degree / invites / joint fights / any-invited / chain": [
+   7.9,
+   64,
+   13,
+   0.31,
+   0.0
+  ],
+  "late: degree / invites / joint fights / any-invited / chain": [
+   8.3,
+   37,
+   36,
+   0.19,
+   0.0
+  ],
+  "joint_any_attacker_invited_target": 0.23788546255506607,
+  "joint_full_chain": 0.0
+ }
+}

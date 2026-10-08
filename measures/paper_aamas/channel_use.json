@@ -1,0 +1,34 @@
+{
+ "L1": {
+  "single": 0.826,
+  "recipients": 1.387,
+  "own_repeat": 0.771,
+  "own_repeat_late": 0.937,
+  "run_repeat": 0.831,
+  "messages": 1752
+ },
+ "L2": {
+  "single": 0.068,
+  "recipients": 3.986,
+  "own_repeat": 0.057,
+  "own_repeat_late": 0.09,
+  "run_repeat": 0.08,
+  "messages": 1787
+ },
+ "L3": {
+  "single": 0.017,
+  "recipients": 7.901,
+  "own_repeat": 0.06,
+  "own_repeat_late": 0.118,
+  "run_repeat": 0.087,
+  "messages": 1641.5
+ },
+ "L4": {
+  "single": 0.004,
+  "recipients": 9.001,
+  "own_repeat": 0.119,
+  "own_repeat_late": 0.12,
+  "run_repeat": 0.492,
+  "messages": 1800.0
+ }
+}

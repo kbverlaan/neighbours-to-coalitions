@@ -1,0 +1,30 @@
+{
+ "L1": {
+  "runs": 45,
+  "Q": 0.179,
+  "Q_null": 0.218,
+  "excess": -0.028,
+  "mean_degree": 5.1
+ },
+ "L2": {
+  "runs": 45,
+  "Q": 0.251,
+  "Q_null": 0.194,
+  "excess": 0.06,
+  "mean_degree": 6.7
+ },
+ "L3": {
+  "runs": 30,
+  "Q": 0.061,
+  "Q_null": 0.039,
+  "excess": 0.026,
+  "mean_degree": 17.3
+ },
+ "L4": {
+  "runs": 30,
+  "Q": 0.05,
+  "Q_null": 0.029,
+  "excess": 0.011,
+  "mean_degree": 15.4
+ }
+}

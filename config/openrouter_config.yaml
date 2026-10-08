@@ -1,0 +1,15 @@
+# Cloud-API fallback (OpenRouter). Main runs use vllm_config.yaml on Snellius.
+
+api_key_env_var: "OPENROUTER_API_KEY"
+base_url: "https://openrouter.ai/api/v1"
+
+model: "qwen/qwen3.5-27b"
+
+temperature: 0.3
+max_tokens: 500
+timeout: 60
+retry_attempts: 3
+retry_delay: 2
+
+prompt_config:
+  tom_level: "level2"

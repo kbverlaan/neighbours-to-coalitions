@@ -1,0 +1,12 @@
+# Exploratory (not a registered arm): a second model family via OpenRouter, run on the
+# knife-edge cell as a robustness contrast; not comparable to the frozen production grid.
+api_key_env_var: "OPENROUTER_API_KEY"
+base_url: "https://openrouter.ai/api/v1"
+model: "deepseek/deepseek-v3.2"
+temperature: 0.3
+max_tokens: 16000
+timeout: 900
+retry_attempts: 3
+retry_delay: 5
+prompt_config:
+  tom_level: "level0"

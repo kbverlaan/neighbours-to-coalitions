@@ -1,0 +1,71 @@
+# No-channel control — L4 x knife-edge (generated from prod_L4_knife.yaml; only delta: comm_scope).
+
+# REGISTERED PRODUCTION CELL — L4 x knife (generated from frozen ladder_L4.yaml;
+# only delta: g_inv). Confirmatory grid: 4 rungs x 3 payoff cells. Do not change after deposit.
+# Complexity ladder — RUNG 4: Commons.
+# Affordances: L3 + harvest (shared logistic stock). Full ladder.
+# Comms + memory ON (always-on base substrate). Prod numeric params unchanged.
+#
+# Flag matrix (see ladder_L1.yaml header).
+
+num_agents: 30
+initial_resources: 100.0
+
+# Investment
+c_inv: 0.06
+g_inv: 0.091                         # REGISTERED payoff cell: knife (triplet 0.039/0.091/0.142)
+gamma_sat: 1.00
+tau_sat: 5
+
+# Arming — ON
+arm_enabled: true
+c_arm: 0.05
+mu_arm: 4.0
+delta_B: 0.75
+
+# Combat — ON
+take_enabled: true
+alpha: 0.35
+c_atk: 0.02
+symmetric_stakes: true
+lethal_pot: false
+
+# Commons — ON from L4. RE-LOCKED (production freeze) after the
+# action_own prompt-bug invalidated the old lock evidence (job 24092054).
+# Production design, validated in the OpenRouter probe series (runs n2-n6, C):
+# harvest is an ACTION (fraction of own resources), stock shown in absolute
+# units, announced in R1 and harvestable from R2 (one round of talk before the
+# first draw), start at full K so one collective over-draw is a lesson, not
+# death. Evidence: n6 (overshoot -> computed freeze -> correctly scaled quota
+# -> sustained management). regen 1.5 = fragile-but-recoverable; OFAT sweeps
+# g_inv only, NOT the commons.
+commons_enabled: true
+commons_K: 120.0
+commons_init: 120.0                   # start at full K (GovSim parity; re-locked)
+commons_regen: 1.5                    # fragile-but-recoverable (tragedy threshold is between 1.5 and 1.0)
+c_harvest: 0.03                       # harvest participation cost (adopted)
+harvest_frac_cap: 0.04                # per-round harvest cap
+commons_collapse_frac: 0.05
+commons_open_round: 2                 # R1 = announced + discussable, harvestable from R2
+
+# Economy
+delta_R: 0.97
+
+# Game length
+max_rounds: 60
+history_length: 10
+
+# Network — association (rewiring) ON; w>0 gives it bite
+network_enabled: true
+assoc_enabled: true
+mean_degree: 5.0
+rewiring_prob: 1.0                    # action = certain outcome (production)
+
+# Communication — ON (base substrate)
+comm_scope: "none"                    # no-channel control
+
+# Memory — ON (base substrate)
+memory:
+  enabled: true
+  window_size: 10
+  notes_persist: true

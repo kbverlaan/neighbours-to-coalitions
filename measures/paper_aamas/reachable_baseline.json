@@ -1,0 +1,38 @@
+{
+ "L2 Gemma": {
+  "fights": 1923,
+  "observed": 13.5,
+  "chance_reachable": 9.6,
+  "chance_all": 9.2
+ },
+ "L3 Gemma": {
+  "fights": 2928,
+  "observed": 42.5,
+  "chance_reachable": 12.4,
+  "chance_all": 10.1
+ },
+ "L4 Gemma": {
+  "fights": 2,
+  "observed": 0.0,
+  "chance_reachable": 0.0,
+  "chance_all": 10.3
+ },
+ "L3 silent": {
+  "fights": 167,
+  "observed": 1.8,
+  "chance_reachable": 7.2,
+  "chance_all": 9.4
+ },
+ "L2 Qwen": {
+  "fights": 1604,
+  "observed": 0.9,
+  "chance_reachable": 9.5,
+  "chance_all": 9.5
+ },
+ "L3 Qwen": {
+  "fights": 1608,
+  "observed": 2.2,
+  "chance_reachable": 8.7,
+  "chance_all": 9.6
+ }
+}

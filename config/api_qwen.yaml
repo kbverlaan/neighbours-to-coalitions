@@ -1,0 +1,10 @@
+# Model backend for the second-model arm: Qwen3.6-27B, native reasoning on. Per-run settings are in each run's log.
+# Game parameters are identical to prod_L{2,3,4}_knife.yaml; only the model differs.
+api_key_env_var: ""
+base_url: "http://localhost:8000/v1"
+model: "/path/to/Qwen3.6-27B"
+temperature: 0.3
+max_tokens: 20000
+timeout: 900
+retry_attempts: 3
+retry_delay: 5

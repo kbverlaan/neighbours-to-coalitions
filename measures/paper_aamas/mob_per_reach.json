@@ -1,0 +1,20 @@
+{
+ "L2": {
+  "runs": 45,
+  "mob": 1.5,
+  "degree": 4.9,
+  "mob_per_degree": 0.288
+ },
+ "L3": {
+  "runs": 30,
+  "mob": 8.35,
+  "degree": 13.2,
+  "mob_per_degree": 0.595
+ },
+ "L4": {
+  "runs": 30,
+  "mob": 0.0,
+  "degree": 5.2,
+  "mob_per_degree": 0.0
+ }
+}

@@ -1,0 +1,323 @@
+[
+ {
+  "measure": "club modularity Q",
+  "levels": [
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "action": 0.51,
+  "action_ci": [
+   0.41,
+   0.75
+  ],
+  "model": 0.55,
+  "model_ci": [
+   0.4,
+   0.83
+  ],
+  "interaction": 0.28,
+  "kw_level_p": {
+   "gemma": 0.011,
+   "qwen": 0.023
+  }
+ },
+ {
+  "measure": "number of clubs",
+  "levels": [
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "action": 0.43,
+  "action_ci": [
+   0.31,
+   0.77
+  ],
+  "model": 0.09,
+  "model_ci": [
+   0.0,
+   0.42
+  ],
+  "interaction": 0.16,
+  "kw_level_p": {
+   "gemma": 0.03,
+   "qwen": 0.025
+  }
+ },
+ {
+  "measure": "cohesion",
+  "levels": [
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "action": 0.2,
+  "action_ci": [
+   0.05,
+   0.55
+  ],
+  "model": 0.0,
+  "model_ci": [
+   0.0,
+   0.18
+  ],
+  "interaction": 0.39,
+  "kw_level_p": {
+   "gemma": 0.011,
+   "qwen": 0.685
+  }
+ },
+ {
+  "measure": "consensus mean",
+  "levels": [
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "action": 0.25,
+  "action_ci": [
+   0.07,
+   0.68
+  ],
+  "model": 0.06,
+  "model_ci": [
+   0.0,
+   0.46
+  ],
+  "interaction": 0.13,
+  "kw_level_p": {
+   "gemma": 0.619,
+   "qwen": 0.009
+  }
+ },
+ {
+  "measure": "consensus spread",
+  "levels": [
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "action": 0.31,
+  "action_ci": [
+   0.13,
+   0.68
+  ],
+  "model": 0.05,
+  "model_ci": [
+   0.0,
+   0.39
+  ],
+  "interaction": 0.25,
+  "kw_level_p": {
+   "gemma": 0.017,
+   "qwen": 0.914
+  }
+ },
+ {
+  "measure": "action drift",
+  "levels": [
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "action": 0.43,
+  "action_ci": [
+   0.27,
+   0.76
+  ],
+  "model": 0.1,
+  "model_ci": [
+   0.0,
+   0.45
+  ],
+  "interaction": 0.01,
+  "kw_level_p": {
+   "gemma": 0.131,
+   "qwen": 0.009
+  }
+ },
+ {
+  "measure": "mob size",
+  "levels": [
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "action": 0.72,
+  "action_ci": [
+   0.6,
+   0.89
+  ],
+  "model": 0.24,
+  "model_ci": [
+   0.06,
+   0.52
+  ],
+  "interaction": 0.63,
+  "kw_level_p": {
+   "gemma": 0.002,
+   "qwen": 0.566
+  }
+ },
+ {
+  "measure": "intra-club takes (%)",
+  "levels": [
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "action": 0.09,
+  "action_ci": [
+   0.01,
+   0.55
+  ],
+  "model": 0.67,
+  "model_ci": [
+   0.5,
+   0.88
+  ],
+  "interaction": 0.4,
+  "kw_level_p": {
+   "gemma": 0.007,
+   "qwen": 0.102
+  }
+ },
+ {
+  "measure": "rewiring rate",
+  "levels": [
+   "L3",
+   "L4"
+  ],
+  "action": 0.84,
+  "action_ci": [
+   0.83,
+   0.94
+  ],
+  "model": 0.12,
+  "model_ci": [
+   0.0,
+   0.44
+  ],
+  "interaction": 0.38,
+  "kw_level_p": {
+   "gemma": 0.009,
+   "qwen": 0.009
+  }
+ },
+ {
+  "measure": "norm density, public",
+  "levels": [
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "action": 0.69,
+  "action_ci": [
+   0.54,
+   0.88
+  ],
+  "model": 0.59,
+  "model_ci": [
+   0.39,
+   0.81
+  ],
+  "interaction": 0.13,
+  "kw_level_p": {
+   "gemma": 0.018,
+   "qwen": 0.005
+  }
+ },
+ {
+  "measure": "norm density, private",
+  "levels": [
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "action": 0.42,
+  "action_ci": [
+   0.27,
+   0.7
+  ],
+  "model": 0.67,
+  "model_ci": [
+   0.49,
+   0.87
+  ],
+  "interaction": 0.17,
+  "kw_level_p": {
+   "gemma": 0.002,
+   "qwen": 0.432
+  }
+ },
+ {
+  "measure": "sanction talk",
+  "levels": [
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "action": 0.73,
+  "action_ci": [
+   0.67,
+   0.87
+  ],
+  "model": 0.36,
+  "model_ci": [
+   0.33,
+   0.54
+  ],
+  "interaction": 0.62,
+  "kw_level_p": {
+   "gemma": 0.008,
+   "qwen": 0.533
+  }
+ },
+ {
+  "measure": "enforcement (negative)",
+  "levels": [
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "action": 0.61,
+  "action_ci": [
+   0.6,
+   0.78
+  ],
+  "model": 0.33,
+  "model_ci": [
+   0.26,
+   0.58
+  ],
+  "interaction": 0.71,
+  "kw_level_p": {
+   "gemma": 0.007,
+   "qwen": 0.468
+  }
+ },
+ {
+  "measure": "enforcement (positive)",
+  "levels": [
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "action": 0.22,
+  "action_ci": [
+   0.04,
+   0.68
+  ],
+  "model": 0.2,
+  "model_ci": [
+   0.01,
+   0.63
+  ],
+  "interaction": 0.1,
+  "kw_level_p": {
+   "gemma": 0.024,
+   "qwen": 0.603
+  }
+ }
+]

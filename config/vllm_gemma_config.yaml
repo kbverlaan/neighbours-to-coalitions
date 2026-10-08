@@ -1,0 +1,12 @@
+# vLLM on Snellius — Gemma 4 31B dense variant.
+
+api_key_env_var: ""
+base_url: "http://localhost:8000/v1"
+
+model: "/path/to/Gemma4-31B"
+
+temperature: 0.3
+max_tokens: 16000       # thinking-CoT grows to 8K+ at a full window; 8000 caused truncation+retries (OpenRouter lab)
+timeout: 600
+retry_attempts: 3
+retry_delay: 5

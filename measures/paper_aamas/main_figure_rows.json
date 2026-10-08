@@ -1,0 +1,1027 @@
+[
+ {
+  "key": "Q",
+  "label": "club modularity Q",
+  "family": "F1",
+  "rungs": [
+   "L1",
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.76,
+  "price": 0.12,
+  "cap_ci": [
+   0.71,
+   0.83
+  ],
+  "price_ci": [
+   0.06,
+   0.24
+  ],
+  "steps": {
+   "L1-L2": {
+    "delta": 0.34,
+    "ci": [
+     0.19,
+     0.5
+    ],
+    "per_price": {
+     "scar": -0.56,
+     "knife": 0.81,
+     "abund": 0.78
+    }
+   },
+   "L2-L3": {
+    "delta": -0.99,
+    "ci": [
+     -1.0,
+     -0.95
+    ],
+    "per_price": {
+     "scar": -1.0,
+     "knife": -1.0,
+     "abund": -0.96
+    }
+   },
+   "L3-L4": {
+    "delta": -0.08,
+    "ci": [
+     -0.37,
+     0.22
+    ],
+    "per_price": {
+     "scar": -0.56,
+     "knife": 0.2,
+     "abund": 0.12
+    }
+   }
+  }
+ },
+ {
+  "key": "K",
+  "label": "number of clubs",
+  "family": "F1",
+  "rungs": [
+   "L1",
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.53,
+  "price": 0.34,
+  "cap_ci": [
+   0.48,
+   0.63
+  ],
+  "price_ci": [
+   0.24,
+   0.5
+  ],
+  "steps": {
+   "L1-L2": {
+    "delta": -0.63,
+    "ci": [
+     -0.76,
+     -0.51
+    ],
+    "per_price": {
+     "scar": 0.12,
+     "knife": -1.0,
+     "abund": -1.0
+    }
+   },
+   "L2-L3": {
+    "delta": -0.7,
+    "ci": [
+     -0.84,
+     -0.54
+    ],
+    "per_price": {
+     "scar": -0.65,
+     "knife": -0.73,
+     "abund": -0.71
+    }
+   },
+   "L3-L4": {
+    "delta": 0.12,
+    "ci": [
+     -0.17,
+     0.41
+    ],
+    "per_price": {
+     "scar": -0.42,
+     "knife": 0.33,
+     "abund": 0.44
+    }
+   }
+  }
+ },
+ {
+  "key": "coh",
+  "label": "cohesion",
+  "family": "F1",
+  "rungs": [
+   "L1",
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.42,
+  "price": 0.2,
+  "cap_ci": [
+   0.35,
+   0.54
+  ],
+  "price_ci": [
+   0.11,
+   0.35
+  ],
+  "steps": {
+   "L1-L2": {
+    "delta": -0.52,
+    "ci": [
+     -0.67,
+     -0.4
+    ],
+    "per_price": {
+     "scar": 0.39,
+     "knife": -0.97,
+     "abund": -0.98
+    }
+   },
+   "L2-L3": {
+    "delta": -0.66,
+    "ci": [
+     -0.84,
+     -0.46
+    ],
+    "per_price": {
+     "scar": -0.93,
+     "knife": -0.85,
+     "abund": -0.2
+    }
+   },
+   "L3-L4": {
+    "delta": 0.47,
+    "ci": [
+     0.21,
+     0.7
+    ],
+    "per_price": {
+     "scar": 0.27,
+     "knife": 0.92,
+     "abund": 0.23
+    }
+   }
+  }
+ },
+ {
+  "key": "cmean",
+  "label": "consensus mean",
+  "family": "F1",
+  "rungs": [
+   "L1",
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.32,
+  "price": 0.27,
+  "cap_ci": [
+   0.23,
+   0.46
+  ],
+  "price_ci": [
+   0.17,
+   0.43
+  ],
+  "steps": {
+   "L1-L2": {
+    "delta": -0.7,
+    "ci": [
+     -0.85,
+     -0.53
+    ],
+    "per_price": {
+     "scar": -1.0,
+     "knife": -0.34,
+     "abund": -0.76
+    }
+   },
+   "L2-L3": {
+    "delta": -0.35,
+    "ci": [
+     -0.59,
+     -0.08
+    ],
+    "per_price": {
+     "scar": -0.35,
+     "knife": -0.45,
+     "abund": -0.24
+    }
+   },
+   "L3-L4": {
+    "delta": 0.34,
+    "ci": [
+     0.05,
+     0.59
+    ],
+    "per_price": {
+     "scar": 0.0,
+     "knife": 0.3,
+     "abund": 0.72
+    }
+   }
+  }
+ },
+ {
+  "key": "cstd",
+  "label": "consensus spread",
+  "family": "F1",
+  "rungs": [
+   "L1",
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.8,
+  "price": 0.16,
+  "cap_ci": [
+   0.77,
+   0.85
+  ],
+  "price_ci": [
+   0.08,
+   0.32
+  ],
+  "steps": {
+   "L1-L2": {
+    "delta": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "per_price": {
+     "scar": 1.0,
+     "knife": 1.0,
+     "abund": 1.0
+    }
+   },
+   "L2-L3": {
+    "delta": 0.95,
+    "ci": [
+     0.88,
+     1.0
+    ],
+    "per_price": {
+     "scar": 0.96,
+     "knife": 0.95,
+     "abund": 0.95
+    }
+   },
+   "L3-L4": {
+    "delta": -0.85,
+    "ci": [
+     -0.96,
+     -0.69
+    ],
+    "per_price": {
+     "scar": -1.0,
+     "knife": -0.9,
+     "abund": -0.64
+    }
+   }
+  }
+ },
+ {
+  "key": "drift",
+  "label": "action drift",
+  "family": "F1",
+  "rungs": [
+   "L1",
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.69,
+  "price": 0.12,
+  "cap_ci": [
+   0.64,
+   0.78
+  ],
+  "price_ci": [
+   0.06,
+   0.26
+  ],
+  "steps": {
+   "L1-L2": {
+    "delta": 0.92,
+    "ci": [
+     0.83,
+     0.99
+    ],
+    "per_price": {
+     "scar": 1.0,
+     "knife": 0.86,
+     "abund": 0.91
+    }
+   },
+   "L2-L3": {
+    "delta": 0.84,
+    "ci": [
+     0.69,
+     0.95
+    ],
+    "per_price": {
+     "scar": 0.76,
+     "knife": 0.96,
+     "abund": 0.8
+    }
+   },
+   "L3-L4": {
+    "delta": -0.58,
+    "ci": [
+     -0.82,
+     -0.32
+    ],
+    "per_price": {
+     "scar": -0.68,
+     "knife": -0.51,
+     "abund": -0.56
+    }
+   }
+  }
+ },
+ {
+  "key": "mob",
+  "label": "mob size",
+  "family": "F1",
+  "rungs": [
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.85,
+  "price": 0.06,
+  "cap_ci": [
+   0.81,
+   0.9
+  ],
+  "price_ci": [
+   0.01,
+   0.23
+  ],
+  "steps": {
+   "L2-L3": {
+    "delta": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "per_price": {
+     "scar": 1.0,
+     "knife": 1.0,
+     "abund": 1.0
+    }
+   },
+   "L3-L4": {
+    "delta": -1.0,
+    "ci": [
+     -1.0,
+     -1.0
+    ],
+    "per_price": {
+     "scar": -1.0,
+     "knife": -1.0,
+     "abund": -1.0
+    }
+   }
+  }
+ },
+ {
+  "key": "verr",
+  "label": "intra-club takes (%)",
+  "family": "F1",
+  "rungs": [
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.6,
+  "price": 0.15,
+  "cap_ci": [
+   0.55,
+   0.7
+  ],
+  "price_ci": [
+   0.05,
+   0.37
+  ],
+  "steps": {
+   "L2-L3": {
+    "delta": 0.39,
+    "ci": [
+     0.15,
+     0.62
+    ],
+    "per_price": {
+     "scar": 0.23,
+     "knife": 0.4,
+     "abund": 0.55
+    }
+   },
+   "L3-L4": {
+    "delta": -1.0,
+    "ci": [
+     -1.0,
+     -1.0
+    ],
+    "per_price": {
+     "scar": -1.0,
+     "knife": -1.0,
+     "abund": -1.0
+    }
+   }
+  }
+ },
+ {
+  "key": "rw",
+  "label": "rewiring rate",
+  "family": "F1",
+  "rungs": [
+   "L3",
+   "L4"
+  ],
+  "cap": 0.81,
+  "price": 0.16,
+  "cap_ci": [
+   0.8,
+   0.86
+  ],
+  "price_ci": [
+   0.05,
+   0.37
+  ],
+  "steps": {
+   "L3-L4": {
+    "delta": -1.0,
+    "ci": [
+     -1.0,
+     -1.0
+    ],
+    "per_price": {
+     "scar": -1.0,
+     "knife": -1.0,
+     "abund": -1.0
+    }
+   }
+  }
+ },
+ {
+  "key": "norm_pub",
+  "label": "norm density, public",
+  "family": "F2",
+  "rungs": [
+   "L1",
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.85,
+  "price": 0.14,
+  "cap_ci": [
+   0.83,
+   0.89
+  ],
+  "price_ci": [
+   0.07,
+   0.28
+  ],
+  "steps": {
+   "L1-L2": {
+    "delta": 0.98,
+    "ci": [
+     0.94,
+     1.0
+    ],
+    "per_price": {
+     "scar": 1.0,
+     "knife": 1.0,
+     "abund": 0.95
+    }
+   },
+   "L2-L3": {
+    "delta": -0.02,
+    "ci": [
+     -0.24,
+     0.22
+    ],
+    "per_price": {
+     "scar": -0.47,
+     "knife": -0.24,
+     "abund": 0.65
+    }
+   },
+   "L3-L4": {
+    "delta": -0.95,
+    "ci": [
+     -1.0,
+     -0.86
+    ],
+    "per_price": {
+     "scar": -0.9,
+     "knife": -0.94,
+     "abund": -1.0
+    }
+   }
+  }
+ },
+ {
+  "key": "norm_priv",
+  "label": "norm density, private",
+  "family": "F2",
+  "rungs": [
+   "L1",
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.81,
+  "price": 0.07,
+  "cap_ci": [
+   0.78,
+   0.86
+  ],
+  "price_ci": [
+   0.02,
+   0.18
+  ],
+  "steps": {
+   "L1-L2": {
+    "delta": 0.95,
+    "ci": [
+     0.88,
+     0.99
+    ],
+    "per_price": {
+     "scar": 1.0,
+     "knife": 1.0,
+     "abund": 0.85
+    }
+   },
+   "L2-L3": {
+    "delta": 0.75,
+    "ci": [
+     0.57,
+     0.91
+    ],
+    "per_price": {
+     "scar": 0.52,
+     "knife": 0.91,
+     "abund": 0.81
+    }
+   },
+   "L3-L4": {
+    "delta": -0.98,
+    "ci": [
+     -1.0,
+     -0.92
+    ],
+    "per_price": {
+     "scar": -0.94,
+     "knife": -1.0,
+     "abund": -1.0
+    }
+   }
+  }
+ },
+ {
+  "key": "sanc",
+  "label": "sanction talk",
+  "family": "F2",
+  "rungs": [
+   "L1",
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.83,
+  "price": 0.14,
+  "cap_ci": [
+   0.79,
+   0.88
+  ],
+  "price_ci": [
+   0.06,
+   0.29
+  ],
+  "steps": {
+   "L1-L2": {
+    "delta": 0.93,
+    "ci": [
+     0.85,
+     1.0
+    ],
+    "per_price": {
+     "scar": 1.0,
+     "knife": 1.0,
+     "abund": 0.78
+    }
+   },
+   "L2-L3": {
+    "delta": -0.05,
+    "ci": [
+     -0.29,
+     0.2
+    ],
+    "per_price": {
+     "scar": -0.46,
+     "knife": -0.23,
+     "abund": 0.55
+    }
+   },
+   "L3-L4": {
+    "delta": -1.0,
+    "ci": [
+     -1.0,
+     -1.0
+    ],
+    "per_price": {
+     "scar": -1.0,
+     "knife": -1.0,
+     "abund": -1.0
+    }
+   }
+  }
+ },
+ {
+  "key": "enf_neg",
+  "label": "enforcement (negative)",
+  "family": "F2",
+  "rungs": [
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.59,
+  "price": 0.06,
+  "cap_ci": [
+   0.56,
+   0.66
+  ],
+  "price_ci": [
+   0.01,
+   0.23
+  ],
+  "steps": {
+   "L2-L3": {
+    "delta": 0.08,
+    "ci": [
+     -0.2,
+     0.35
+    ],
+    "per_price": {
+     "scar": -0.2,
+     "knife": 0.12,
+     "abund": 0.32
+    }
+   },
+   "L3-L4": {
+    "delta": -1.0,
+    "ci": [
+     -1.0,
+     -1.0
+    ],
+    "per_price": {
+     "scar": -1.0,
+     "knife": -1.0,
+     "abund": -1.0
+    }
+   }
+  }
+ },
+ {
+  "key": "enf_pos",
+  "label": "enforcement (positive)",
+  "family": "F2",
+  "rungs": [
+   "L1",
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.57,
+  "price": 0.09,
+  "cap_ci": [
+   0.51,
+   0.68
+  ],
+  "price_ci": [
+   0.04,
+   0.2
+  ],
+  "steps": {
+   "L1-L2": {
+    "delta": 0.91,
+    "ci": [
+     0.8,
+     0.98
+    ],
+    "per_price": {
+     "scar": 1.0,
+     "knife": 0.99,
+     "abund": 0.72
+    }
+   },
+   "L2-L3": {
+    "delta": -0.32,
+    "ci": [
+     -0.58,
+     -0.04
+    ],
+    "per_price": {
+     "scar": -0.23,
+     "knife": -0.19,
+     "abund": -0.55
+    }
+   },
+   "L3-L4": {
+    "delta": -0.49,
+    "ci": [
+     -0.72,
+     -0.24
+    ],
+    "per_price": {
+     "scar": -0.6,
+     "knife": -0.66,
+     "abund": -0.22
+    }
+   }
+  }
+ },
+ {
+  "key": "names_any",
+  "label": "named agreement present",
+  "family": "added",
+  "rungs": [
+   "L1",
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.69,
+  "price": 0.01,
+  "cap_ci": [
+   0.59,
+   0.83
+  ],
+  "price_ci": [
+   0.0,
+   0.08
+  ],
+  "steps": {
+   "L1-L2": {
+    "delta": 0.84,
+    "ci": [
+     0.73,
+     0.93
+    ]
+   },
+   "L2-L3": {
+    "delta": 0.02,
+    "ci": [
+     -0.16,
+     0.19
+    ]
+   },
+   "L3-L4": {
+    "delta": 0.07,
+    "ci": [
+     -0.07,
+     0.2
+    ]
+   }
+  }
+ },
+ {
+  "key": "pairs_any",
+  "label": "reciprocal pair present",
+  "family": "added",
+  "rungs": [
+   "L1",
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.19,
+  "price": 0.52,
+  "cap_ci": [
+   0.1,
+   0.35
+  ],
+  "price_ci": [
+   0.43,
+   0.65
+  ],
+  "steps": {
+   "L1-L2": {
+    "delta": 0.13,
+    "ci": [
+     -0.04,
+     0.31
+    ]
+   },
+   "L2-L3": {
+    "delta": -0.33,
+    "ci": [
+     -0.54,
+     -0.12
+    ]
+   },
+   "L3-L4": {
+    "delta": -0.03,
+    "ci": [
+     -0.3,
+     0.2
+    ]
+   }
+  }
+ },
+ {
+  "key": "dyads",
+  "label": "number of pairs",
+  "family": "added",
+  "rungs": [
+   "L1",
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.27,
+  "price": 0.63,
+  "cap_ci": [
+   0.2,
+   0.42
+  ],
+  "price_ci": [
+   0.57,
+   0.73
+  ],
+  "steps": {
+   "L1-L2": {
+    "delta": -0.12,
+    "ci": [
+     -0.38,
+     0.12
+    ]
+   },
+   "L2-L3": {
+    "delta": -0.45,
+    "ci": [
+     -0.68,
+     -0.2
+    ]
+   },
+   "L3-L4": {
+    "delta": 0.11,
+    "ci": [
+     -0.17,
+     0.37
+    ]
+   }
+  }
+ },
+ {
+  "key": "econ",
+  "label": "summed final economy",
+  "family": "added",
+  "rungs": [
+   "L1",
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.65,
+  "price": 0.8,
+  "cap_ci": [
+   0.59,
+   0.78
+  ],
+  "price_ci": [
+   0.72,
+   0.89
+  ],
+  "steps": {
+   "L1-L2": {
+    "delta": -0.52,
+    "ci": [
+     -0.72,
+     -0.32
+    ]
+   },
+   "L2-L3": {
+    "delta": -0.28,
+    "ci": [
+     -0.53,
+     -0.01
+    ]
+   },
+   "L3-L4": {
+    "delta": 0.62,
+    "ci": [
+     0.36,
+     0.84
+    ]
+   }
+  }
+ },
+ {
+  "key": "floor_ratio",
+  "label": "poorest / mean holding",
+  "family": "added",
+  "rungs": [
+   "L1",
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.74,
+  "price": 0.29,
+  "cap_ci": [
+   0.68,
+   0.82
+  ],
+  "price_ci": [
+   0.21,
+   0.43
+  ],
+  "steps": {
+   "L1-L2": {
+    "delta": -0.63,
+    "ci": [
+     -0.8,
+     -0.44
+    ]
+   },
+   "L2-L3": {
+    "delta": -0.48,
+    "ci": [
+     -0.67,
+     -0.29
+    ]
+   },
+   "L3-L4": {
+    "delta": 0.96,
+    "ci": [
+     0.89,
+     1.0
+    ]
+   }
+  }
+ },
+ {
+  "key": "gini",
+  "label": "final Gini",
+  "family": "added",
+  "rungs": [
+   "L1",
+   "L2",
+   "L3",
+   "L4"
+  ],
+  "cap": 0.66,
+  "price": 0.37,
+  "cap_ci": [
+   0.58,
+   0.77
+  ],
+  "price_ci": [
+   0.27,
+   0.52
+  ],
+  "steps": {
+   "L1-L2": {
+    "delta": 0.84,
+    "ci": [
+     0.72,
+     0.94
+    ]
+   },
+   "L2-L3": {
+    "delta": 0.15,
+    "ci": [
+     -0.16,
+     0.46
+    ]
+   },
+   "L3-L4": {
+    "delta": -0.84,
+    "ci": [
+     -0.96,
+     -0.68
+    ]
+   }
+  }
+ }
+]

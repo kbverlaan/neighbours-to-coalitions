@@ -1,0 +1,69 @@
+# REGISTERED COMMS-OFF CONTROL — L1 x knife x nocomm (generated from
+# prod_L1_knife.yaml; only delta: comm_scope). Falsifiable core: violence suppression
+# + Sugden private norm; institution contrast conditional on bistability of the comms-on cell.
+# REGISTERED PRODUCTION CELL — L1 x knife (generated from frozen ladder_L1.yaml;
+# only delta: g_inv). Confirmatory grid: 4 rungs x 3 payoff cells. Do not change after deposit.
+# Complexity ladder — RUNG 1: Cooperation dilemma.
+# Affordances: transfer + hold ONLY. No arming, no take/combat, no rewiring, no commons.
+# Comms + memory ON (always-on base substrate). Prod numeric params unchanged (calibration holds).
+#
+# Flag matrix vs other rungs:
+#   arm_enabled  take_enabled  assoc_enabled  commons_enabled   (rewiring_prob)
+#   L1: false        false         false          false              0.0
+#   L2: true         true          false          false              0.0
+#   L3: true         true          true           false              0.5
+#   L4: true         true          true           true               0.5
+
+num_agents: 30
+initial_resources: 100.0
+
+# Investment
+c_inv: 0.06
+g_inv: 0.091                         # REGISTERED payoff cell: knife (triplet 0.039/0.091/0.142)
+gamma_sat: 1.00
+tau_sat: 5
+
+# Arming — OFF on L1
+arm_enabled: false
+c_arm: 0.05
+mu_arm: 4.0
+delta_B: 0.75
+
+# Combat — OFF on L1
+take_enabled: false
+alpha: 0.35
+c_atk: 0.02
+symmetric_stakes: true
+lethal_pot: false
+
+# Commons — OFF on L1
+commons_enabled: false
+commons_K: 120.0
+commons_init: 120.0                   # dormant (commons_enabled false); parity with L4
+commons_regen: 1.5                    # dormant (commons off); parity with L4
+c_harvest: 0.03                       # dormant (commons off); parity with L4
+harvest_frac_cap: 0.04                # dormant; parity with L4
+commons_collapse_frac: 0.05
+commons_open_round: 2                 # inert while commons_enabled false (parity with L4)
+
+# Economy
+delta_R: 0.97
+
+# Game length
+max_rounds: 60
+history_length: 10
+
+# Network — static topology is always-on substrate; association (rewiring) OFF on L1
+network_enabled: true
+assoc_enabled: false
+mean_degree: 5.0
+rewiring_prob: 0.0
+
+# Communication — ON (base substrate)
+comm_scope: "none"                    # REGISTERED comms-off control (both on knife-edge)
+
+# Memory — ON (base substrate)
+memory:
+  enabled: true
+  window_size: 10
+  notes_persist: true
